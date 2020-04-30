@@ -1,7 +1,7 @@
 ## YOUR FIRST CAP PROJECT....WOOHOO
 
 
-## Before we start...just a little reminder...you might find that the link to open the web browser goes away...in this case do the following
+## Before we start...just a little reminder...as you make your way through the exercises, you might find that we ask you to view the running service by opening a window. Sometimes the link will disappear and when it does, do the following to reopen it
 
 Essentially, from the BAS Menu, you will follow View -> Find Command -> Ports for a list of applications running on ports. In our case, there should only be one listed, so just click on it to open the currently running application which should be your NodeJS application running with the service you have defined above.
 
@@ -18,7 +18,7 @@ The name of the file can theoretically be anything but for consistency, use the 
 From here, you will use the name "schema.cds".<br>
 ![Key1](Part2Images/CAPSchemaFile.jpg)
 
-Within the file, you will now type in the following Syntax to create your first CAP Structure:
+Within the file, you will now type in/copy paste the following Syntax to create your first CAP Structure:
 
     namespace scp.cloud;
 
@@ -40,12 +40,14 @@ Once you have typed in that code, it should look like the following:
 Now before we go any further, we will execute a Node JS command to ensure we have everything we need installed before we continue. Open a terminal window by going to the Top Menu and selecting Terminal -> New Terminal
 ![First CAP Schema](Part2Images/newTerminal.jpg)<br>
 You will see a new Terminal window appear in the bottom half of the screen. 
-Within the new terminal window, in order for the next command "npm install" to work properly, you need to ensure you are working within the correct directory. In our case, the name of the directory should be "incidents_P00XXXX". Validate that on the command line, you see "incidents_P00XXXX" as your current folder/structure. If not, change to that directory with the "cd incidents_P00XXXX" command so that you change into the proper directory (Of course XXXX is your specific userid). The command ls-als as shown below is just to show folks how to list what is in the current directory, just in case you used capital letters or used a different name completely :-)
+Within the new terminal window, in order for the next command "npm install" to work properly, you need to ensure you are working within the correct directory. In our case, the name of the directory should be "incidents_p00XXXX". Validate that on the command line, you see "incidents_p00XXXX" as your current folder/structure. If not, change to that directory with the "cd incidents_p00XXXX" command so that you change into the proper directory (Of course XXXX is your specific userid). The command ls-als as shown below is just to show folks how to list what is in the current directory, just in case you used capital letters or used a different name completely :-)
 
 Now that you are in the correct directory, we will execute npm install<br>
 ![NPM Install](Part2Images/newTerminalCreated.jpg)
 
-Now we will introduce you to a very useful command "cds watch", by typing in the following syntax in the terminal window and pressing return, each time you change the project structure, it will automatically save and redeploy those project changes. After pressing return and once the CDS Watch command is running, go into the editor and make a small change to the code to see the effect. For example, if you remove 2-3 letters from the word entity, you should see a bunch of errors almost immediately. In addition, you can also try the code completion by removing a few letters from the word entity and then pressing "Control and the Space Bar"...you should be prompted for options.
+Now we will introduce you to a very useful command **cds watch**, by typing in the following syntax in the terminal window and pressing return, each time you change the project structure, it will automatically save and redeploy those project changes. 
+
+Once the **cds watch** command is running, go into the editor and make a small change to the code to see the effect. For example, if you remove 2-3 letters from the word entity, you should see a bunch of errors almost immediately. In addition, you can also try the code completion by removing a few letters from the word entity and then pressing "Control and the Space Bar"...you should be prompted for options.
 
 
      cds watch
@@ -76,7 +78,7 @@ If your service is running properly, you will now see your first service exposed
 ![Rest oData](Part2Images/isMetaData.jpg)<br>
 You will see the reference to /Incident as mentioned above and you will see a link to the $metadata. Click on the $metadata to see the definition of your entity as specified in the "schema.cds" file above. However, you should also see additional fields such as "createdBy", why are they there? Take a quick peak around within this file and notice that a large number of annotations have also been added to this file. At this point, we now have a running service which you could easily give to a UI5 developer and have him/her start developing a UI and all of this with a very minimal amount of code. We still have much to do, we will now flush out our model with some additional attributes and relationships.
 
-Relationships between different artifacts form the core of any working application. Now we will beef up our model a little bit and add a few "assocations" to see how these are implemented. Replace what is currently in schema.cds with what follows. If your CDS Watch command is still running, you should see it get busy and eventually provide a link to click to see the new structure:
+Relationships between different artifacts form the core of any working application. Now we will beef up our model a little bit and add a few "assocations" to see how these are implemented. Replace what is currently in schema.cds with what follows. If your **cds watch** command is still running, you should see it get busy and eventually provide a link to click to see the new structure:
 
 ****Replace your existing schema.cds with the following code****
 
@@ -114,7 +116,7 @@ Relationships between different artifacts form the core of any working applicati
 Once that code is in place and if your CDS Watch is still running, you should see the following:
 ![schemamod](Part2Images/SchemaWithAssociation.jpg)
 
-Again, you should be prompted with a pop-up box to open the service in a new window.
+Again, you should be prompted with a pop-up box to open the service in a new window. (If not, refer to instructions at the top of page)
 When the window opens below, you should see the service as defined on the left side of the screenshot and when you click on the $metadata, you should see the details of the service as depicted on the right side of the screenshot below.
 ![schemamod](Part2Images/SchemaMod2.jpg)
 
@@ -138,6 +140,7 @@ Save the file...a shortcut is "CTRL+s" and wait for the CDS Watch window to prom
 You should now see the following:
 ![schemamod](Part2Images/SchemaMod3.jpg)
 Notice that as part of the service name I have changed the name of the entity so that when it is exposed, it will be seen to external consumers as "SafetyOfficer" and not Individual.
+
 
 A few other really important things to notice here:
 - Look in the SafetyIncident Entity, you should see a Navigation Property called "assignedIndividual", this is really important because this allows us to retrieve via oData the Individual (aka..SafetyOfficer) that has been assigned to this incident.
