@@ -142,10 +142,11 @@ You should now see the following:
 Notice that as part of the service name I have changed the name of the entity so that when it is exposed, it will be seen to external consumers as "SafetyOfficer" and not Individual.
 
 
-A few other really important things to notice here:
+**A few other really important things to notice here:**
 - Look in the SafetyIncident Entity, you should see a Navigation Property called "assignedIndividual", this is really important because this allows us to retrieve via oData the Individual (aka..SafetyOfficer) that has been assigned to this incident.
 - Also in the SafetyIncident Entity, you should see a Navigation Property called "category". This allows us to get the details from the Category code if we need them.
 - Look in the SafetyOfficers Entity, you should also see a navigation to safetyIncidents. Why do we need this? What if we wanted to retrieve a list of all incidents assigned to a certain person? Now we have forward navigation from the incident to the assigned person and back navigation from the person to all of the incidents assigned. We will see this a little later.
+- I changed the entity above to SafetyOfficers just for illustration and we won't keep it going forward. But it's important to recognize that the backend entries and how they are named have no bearing on how you decide to expose them as part of the service. This also applies to the fields you choose to expose as part of the entity or choose not to expose. Perhaps you need a mobile specific service with a smaller footprint?
 
 # Adding the last changes to the schema and service
 Please replace the existing schema.cds with the following code snippet. Take a quick glance at the following declaration. You will see serveral new associations, we have an association between SafetyIncidents and IncidentPhotos as an example. We have several additional code tables. We also make use of a structure called common.CodeList. 
