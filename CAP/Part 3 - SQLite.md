@@ -5,7 +5,8 @@ From a terminal window, ensure that you are in the incidents directory as can be
 :point_right: Open "package.json" file and modify it so that instead of "kind" being set to "hana", we will change it to "sql". 
 
 This is a little trick that tells applications running on NodeJs to use SQLite when in development and Hana when in production. We will discuss how this is indicated shortly.
-Save the "package.json" file and from the terminal window, try executing the **cds run** command as in the screenshot, you should see it complain about the fact it cannot find the module "sqlite3".
+Save the "package.json" file and from the terminal window, try executing the **cds run** command as in the screenshot, you should see it complain about the fact it cannot find the module "sqlite3". 
+**If you still have cds watch running in the terminal window, you will need to do a CTRL+C to stop it and then run the cds run command..resist the urge to open another terminal window**
 ![SqliteInstall](Part3Images/SQLiteNotFound.jpg)
 
 From the terminal window, from the incidents_p00XXXX directory, execute 
