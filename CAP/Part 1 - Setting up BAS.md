@@ -11,7 +11,7 @@ Select the Cloud Platform Business Application Project Generator.
 
 :point_right: You need to provide a name for the project, suggest you use **incidents_p00XXXX**.
 
-**DID You include your username in the name of your project....you should **
+**DID You include your username in the name of your project....you should**
 
 After you specifiy a name, Select the check box for "Hana".
 ![Select Options](../Images/templateoptions.jpg)
