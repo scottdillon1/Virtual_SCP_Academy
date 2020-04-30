@@ -240,7 +240,7 @@ Now it's time to check the schema and verify that it contains everything you exp
 ![Final Schema](Part2Images/FinalSchemaMetaData.jpg)
 
 
-# Congratulations....you have completed the schema for the Incident Management Appliation..
+# Congratulations....you have completed the schema for the Incident Management Application..
 
 Now we must associate the application with a database so that we can actually store records.
 
