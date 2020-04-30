@@ -7,7 +7,8 @@ From a terminal window, ensure that you are in the incidents directory as can be
 This is a little trick that tells applications running on NodeJs to use SQLite when in development and Hana when in production. We will discuss how this is indicated shortly.
 Save the "package.json" file and from the terminal window, try executing the **cds run** command as in the screenshot, you should see it complain about the fact it cannot find the module "sqlite3".
 ![SqliteInstall](Part3Images/SQLiteNotFound.jpg)
-So, from the terminal window, from the incidents_p00XXXX directory, execute "npm add sqlite3 -D". This will install the NodeJS module for Sqlite.
+
+From the terminal window, from the incidents_p00XXXX directory, execute "npm add sqlite3 -D". This will install the NodeJS module for Sqlite.
 ![SqliteInstall](Part3Images/SqliteInstall.jpg)
 Now that we have the SQLite module install, we should be able to run the **cds run** command again from the terminal window and the CDS project should find, connect and run using SQLite as the following screenshot indicates:
 ![SqliteInstall](Part3Images/cdsrun.jpg)
