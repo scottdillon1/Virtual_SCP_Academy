@@ -1,14 +1,5 @@
 ## YOUR FIRST CAP PROJECT....WOOHOO
 
-
-## Before we start...just a little reminder...as you make your way through the exercises, you might find that we ask you to view the running service by opening a window. Sometimes the link will disappear and when it does, do the following to reopen it
-
-Essentially, from the BAS Menu, you will follow View -> Find Command -> Ports for a list of applications running on ports. In our case, there should only be one listed, so just click on it to open the currently running application which should be your NodeJS application running with the service you have defined above.
-
-![Ports View](Part2Images/PortsView.jpg)
-
-## Now on with the exercise but refer back to this little hint if you are asked to view your service but can't remember how.
-
 From the File Structure on the left, you will navigate to the DB folder and you will create a new file called schema.cds
 The name of the file can theoretically be anything but for consistency, use the name we suggest so future copy/pastes will work.
 
@@ -67,6 +58,7 @@ Once the **cds watch** command is running, go into the editor and make a small c
 ![cds watch](Part2Images/cdsWatch.jpg)
     
 If you have entered the code correctly for the first part of your schema, you should now see a pop up on the right of the screen that looks like this....Click on the button that says "Expose and Open" to see if your initial empty service gets rendered in the browser window.
+*If for some reason, you don't see a pop-up or the link disappears, click here for instructions on how to view it ![viewport](./viewports.md)
 
 In the browser window, if everything went okay, you should see the following:
 ![cds watch](Part2Images/serviceRunning.jpg)
