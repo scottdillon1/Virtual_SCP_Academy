@@ -223,7 +223,7 @@ What effect do the two keywords managed and cuid have on your structure?
     @readonly entity Priority as projection on cloud.Priority;
     }
 
-Please ensure that both files are saved and if the CDS Watch command is not already running in the terminal window, now would be a good time to restart it.
+Please ensure that both files are saved and if the **cds watch** command is not already running in the terminal window, now would be a good time to restart it.
 
 
 
