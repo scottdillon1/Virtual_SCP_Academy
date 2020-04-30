@@ -1,6 +1,7 @@
 ## Database Installation Time
 Now, we will put a database behind our service so that we can insert and retrieve records. 
 From a terminal window, ensure that you are in the incidents directory as can be seen in the following screenshot.
+
 :point_right: Open "package.json" file and modify it so that instead of "kind" being set to "hana", we will change it to "sql". 
 
 This is a little trick that tells applications running on NodeJs to use SQLite when in development and Hana when in production. We will discuss how this is indicated shortly.
