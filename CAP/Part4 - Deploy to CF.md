@@ -22,9 +22,10 @@ This command will build all of the relevant Hana artifacts and place them in a n
 Once the build process has completed, you will now execute 3 commands in succession in order to create the Hana HDI container on Cloud Foundry, deploy the Hana Artifacts and the SRV artifcats. If you notice the very last line in the above screenshot, the build process actuall tell us what command we need to run in order to create the hdi container. We will modify it slightly to use the hanatrial schema environment but the rest is the same.
 
 Execute the following command:
-### cf create-service hanatrial hdi-shared incidents_P004841-db-hdi-container
+### cf create-service hanatrial hdi-shared incidents_P00XXXX-db-hdi-container
+*As you can see from screenshot above, it's providing a link based on my project name that has my ID in it....be sure to look for this line and be sure it matches when you create the hdi container. If you don't use the correct name, the next 2 steps will likely not work *
 
-This will create a hana container called "incidents-P004841-db-hdi-container"
+This will create a hana container called "incidents-P00XXXX-db-hdi-container"
 
 ![HDI Container](Part4Images/createhdi.jpg)
 
@@ -37,7 +38,7 @@ Next to execute:
 ![SRV](Part4Images/cfpushsrv.jpg)
 
 If all three of the last commands executed correctly, you should see a route specified towards the bottom of the terminal window. The use of the word option --random-route directs the process to essentially create a random URL which is why I can't tell you exactly what it will be. However, take a look in the screenshot for the following Route: 
-### incidentsp004841-srv-persistent-leopard.cfapps.eu10.hana.ondemand.com
+### incidentsp00XXXX-srv-persistent-leopard.cfapps.eu10.hana.ondemand.com
 Once the incidents-srv process starts, you should be able to paste that URL into a browser and see the application and validate that it is running.
 
 Open a web browser, paste your newly created route and you should see a familiar screen that looks like this. Click on one of the entities that you have loaded data into. In my case, I selected Priority. This fully deployed service is now available on the internet and using Hana as a persistence layer. Not bad for 60  minutes of work :-)
