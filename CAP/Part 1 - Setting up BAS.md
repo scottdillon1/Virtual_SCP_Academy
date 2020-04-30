@@ -41,10 +41,10 @@ From there, you will look for "CF Log into Cloud Foundry".
 From there, the API endpoint should be automatically inserted into the text box (api.cf.eu10.hand.ondemand.com). 
 ![Log Into CF](../Images/FindCommand3.jpg)
 
-Next, you will be prompted for user credentials...notice you will specify the userid mentioned above...NOT an email address
+Next, you will be prompted for user credentials...notice you will specify the userid mentioned above for your group (it's not an email address)
 ![Username](../Images/CFEmailAddress.jpg)
 
-Now, you will enter the password specified above...XA4Scott
+Now, you will enter the password specified above for your group
 ![Password](../Images/CFPassword.jpg)
 
 Select the Cloud Foundry Organization that you have been assigned to by your instructor.
