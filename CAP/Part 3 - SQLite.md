@@ -61,10 +61,10 @@ Now we will do the same thing for three other tables, in the same folder (aka db
 
 # scp.cloud.Priority.csv
     code;name;descr
-    low;Low;
-    medium;Medium;
-    high;High;
-    critical;Critical;
+    low;Low;Low Priority
+    medium;Medium;Medium Priority
+    high;High;High Priority
+    critical;Critical;Critical Priority
 
 Now that all of the csv files have been created and placed in the "data" directory, we need to re-run the startup process which will in turn load the various csv files. If there is already a process running in the terminal window, stop it with "CTRL+C". Once it stops, just rerun the command **cds run**. You should see in the console that 4 csv files have been loaded.
 
