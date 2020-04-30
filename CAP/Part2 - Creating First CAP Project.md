@@ -43,7 +43,7 @@ You will see a new Terminal window appear in the bottom half of the screen.
 
 Within the new terminal window, you will execute the command **npm install**
 
-*Note -> in order for the command "npm install" to work properly, you need to ensure you are working within the correct directory. In our case, the name of the directory should be "incidents_p00XXXX". Validate that on the command line, you see "incidents_p00XXXX" as your current folder/structure. If not, change to that directory with the "cd incidents_p00XXXX" command so that you change into the proper directory (Of course XXXX is your specific userid). 
+*Note -> in order for the command "npm install" to work properly, you need to ensure you are working within the correct directory. In our case, the name of the directory should be "incidents_p00XXXX". Validate that on the command line, you see "incidents_p00XXXX" as your current folder/structure. If not, change to that directory with the "cd incidents_p00XXXX" command so that you change into the proper directory (Of course XXXX is your specific userid).*
 
 Now that you are in the correct directory, we will execute npm install<br>
 ![NPM Install](Part2Images/newTerminalCreated.jpg)
