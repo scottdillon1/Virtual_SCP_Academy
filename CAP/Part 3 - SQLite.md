@@ -1,13 +1,14 @@
 ## Database Installation Time
 Now, we will put a database behind our service so that we can insert and retrieve records. 
 From a terminal window, ensure that you are in the incidents directory as can be seen in the following screenshot.
-The first thing we will do is modify the "package.json" file so that instead of "kind" being set to "hana", we will change it to "sql". 
+:point_right: Open "package.json" file and modify it so that instead of "kind" being set to "hana", we will change it to "sql". 
+
 This is a little trick that tells applications running on NodeJs to use SQLite when in development and Hana when in production. We will discuss how this is indicated shortly.
-Save the "package.json" file and from the terminal window, try executing the "CDS RUN" command as in the screenshot, you should see it complain about the fact it cannot find the module "sqlite3".
+Save the "package.json" file and from the terminal window, try executing the **cds run** command as in the screenshot, you should see it complain about the fact it cannot find the module "sqlite3".
 ![SqliteInstall](Part3Images/SQLiteNotFound.jpg)
-So, from the incidents directory, execute "npm add sqlite3 -D". This will install the NodeJS module for Sqlite.
+So, from the terminal window, from the incidents_p00XXXX directory, execute "npm add sqlite3 -D". This will install the NodeJS module for Sqlite.
 ![SqliteInstall](Part3Images/SqliteInstall.jpg)
-Now that we have the SQLite module install, we should be able to run the "CDS RUN" command again from the terminal window and the CDS project should find, connect and run using SQLite as the following screenshot indicates:
+Now that we have the SQLite module install, we should be able to run the **cds run** command again from the terminal window and the CDS project should find, connect and run using SQLite as the following screenshot indicates:
 ![SqliteInstall](Part3Images/cdsrun.jpg)
 Now we can open the application and select one of the entities. Previously, this would have failed but now you should be able to select an entity like the Category and get a response. It's empty because we have not added any rows but it does return an result set, it just happens to have no rows.
 ![SqliteNowRunning](Part3Images/category.jpg)
@@ -27,7 +28,7 @@ So now that we have a database running, lets add a couple of rows to the categor
 Double check as per the screenshot that you have the right spelling under the db folder and that the file is spelt correctly and last but not least, that the column names are correct in the actual csv file.
 ![CSV Upload](Part3Images/categorycsv.jpg)
 
- When you have all those items in place, go back to the terminal window and stop the existing CDS process if it's running with "CTRL-C" and start it again with "CDS RUN". The key thing to look for when you run the "CDS RUN" command is the section towards the bottom that is highlighted that indicates "filling scp.cloud.Category"...if you see that, you know that all is good and your entity should now have some category codes in it.
+ When you have all those items in place, go back to the terminal window and stop the existing CDS process if it's running with "CTRL-C" and start it again with **cds run**. The key thing to look for when you run the **cds run** command is the section towards the bottom that is highlighted that indicates "filling scp.cloud.Category"...if you see that, you know that all is good and your entity should now have some category codes in it.
  
 Now that's it running, you can open the service and click on the Category entry, you should see the following:
 ![Category Codes](Part3Images/categorycodes.jpg)
@@ -59,7 +60,7 @@ Now we will do the same thing for three other tables, in the same folder (aka db
     high;High;
     critical;Critical;
 
-Now that all of the csv files have been created and placed in the "data" directory, we need to re-run the startup process which will in turn load the various csv files. If there is already a process running in the terminal window, stop it with "CTRL+C". Once it stops, just rerun the command cds run. You should in the console that 4 csv files have been loaded.
+Now that all of the csv files have been created and placed in the "data" directory, we need to re-run the startup process which will in turn load the various csv files. If there is already a process running in the terminal window, stop it with "CTRL+C". Once it stops, just rerun the command **cds run**. You should see in the console that 4 csv files have been loaded.
 
 ![Category Codes](Part3Images/csvcomplete.jpg)
 
