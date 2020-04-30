@@ -1,6 +1,6 @@
 ## Using the Business Application Studio to Create a CAP Application
 
-Now we have our Business APplication Studio installed, configured and ready for use, we should be looking at a screen that looks like this
+Now we have our Business Application Studio installed, configured and ready for use, we should be looking at a screen that looks like this
 ![Business Application Stuidio](../Images/BAS_Start.jpg)
 
 From here, you will select "New Project from Template".<br>
@@ -13,7 +13,7 @@ Select the Cloud Platform Business Application Project Generator.
 
 **Did you include your username in the name of your project....you should**
 
-After you specifiy a name, Select the check box for "Hana".
+Select the check box for "Hana".
 ![Select Options](../Images/templateoptions.jpg)
 
 Behind the scenes, your project will be generated. Once complete, the screen will return and you will see a pop-up message box in the bottom right to open a workspace with your project, you need to Open the workspace with this pop-up to start work on your project.
@@ -23,8 +23,12 @@ Behind the scenes, your project will be generated. Once complete, the screen wil
 The editor will reopen in the context of a new workspace and now you can begin work on your project. However, you will likely see in the bottom of the screen a message that says that the Space has not been set with Cloud Foundy. 
 Why are we seeing this message? It's an information message indicating that currently your BAS installation has no idea how to deploy/connect to Cloud Foundry which is where we eventually want to deploy this application. So, by following through the next few steps we will get you connected to the appropriate Cloud Foundry instance.
 
-You will follow the steps in the following screenshots to connect your app studio to Cloud Foundry. For this connectivity to work, you will be using a different userid...a Platform User ID.
-## For these steps use this userid/password but only for these steps user-> xaEA0415 and pwd -> XA4Scott
+Now we will connect your app studio to Cloud Foundry. For this connectivity to work, you will be using a different userid...a Platform User ID.
+## For these steps only, please use the platform user assigned to your group.
+- Users P005001 - P005030 Username -> platformA Password -> RoadShowA1 
+- Users P005031 - P005060 Username -> platformB Password -> RoadShowB2 
+- Users P005061 - P005090 Username -> platformC Password -> RoadShowC3 
+- Users P005091 - P005120 Username -> platformD Password -> RoadShowD4 
 
 ![CF Space Not SEt](../Images/CFSpaceNotSet.jpg)
 
