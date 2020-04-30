@@ -58,7 +58,8 @@ Once the **cds watch** command is running, go into the editor and make a small c
 ![cds watch](Part2Images/cdsWatch.jpg)
     
 If you have entered the code correctly for the first part of your schema, you should now see a pop up on the right of the screen that looks like this....Click on the button that says "Expose and Open" to see if your initial empty service gets rendered in the browser window.
-*If for some reason, you don't see a pop-up or the link disappears, click here for instructions on how to view it ![viewport](./viewPorts.md)*
+<br>
+*If for some reason, you don't see a pop-up or the link disappears, click here for instructions on how to view it [viewport](./ViewPorts.md)*
 
 In the browser window, if everything went okay, you should see the following:
 ![cds watch](Part2Images/serviceRunning.jpg)
@@ -125,7 +126,8 @@ Relationships between different artifacts form the core of any working applicati
 Once that code is in place and if your *cds watch* is still running, you should see the following:
 ![schemamod](Part2Images/SchemaWithAssociation.jpg)
 
-Again, you should be prompted with a pop-up box to open the service in a new window. (If not, refer to instructions at the top of page)
+Again, you should be prompted with a pop-up box to open the service in a new window.
+*If for some reason, you don't see a pop-up or the link disappears, click here for instructions on how to view it [viewport](./ViewPorts.md)*
 When the window opens below, you should see the service as defined on the left side of the screenshot and when you click on the $metadata, you should see the details of the service as depicted on the right side of the screenshot below.
 ![schemamod](Part2Images/SchemaMod2.jpg)
 
@@ -234,7 +236,7 @@ What effect do the two keywords managed and cuid have on your structure?
 
 Please ensure that both files are saved and if the **cds watch** command is not already running in the terminal window, now would be a good time to restart it.
 
-
+*If for some reason, you don't see a pop-up or the link disappears, click here for instructions on how to view it [viewport](./ViewPorts.md)*
 
 From the Business Application Studio, open the incidentService.cds file, your final service definition should look like this:
 
