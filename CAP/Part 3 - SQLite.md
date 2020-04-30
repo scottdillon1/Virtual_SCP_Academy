@@ -24,12 +24,12 @@ So now that we have a database running, lets add a couple of rows to the categor
 # scp.cloud.Category.csv
     
     code;name;descr
-    security;Security;
-    software;Software;
-    hardware;Hardware;
-    telephony;Telephony;
-    database;Database;
-    inquiry;Inquiry;
+    security;Security;Security Code
+    software;Software;Software Code
+    hardware;Hardware;Hardware Code
+    telephony;Telephony;Telephony Code
+    database;Database;Database Code
+    inquiry;Inquiry;Inquiry Code
     
 Double check as per the screenshot that you have the right spelling under the db folder and that the file is spelt correctly and last but not least, that the column names are correct in the actual csv file.
 ![CSV Upload](Part3Images/categorycsv.jpg)
