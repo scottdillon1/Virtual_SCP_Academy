@@ -38,8 +38,10 @@ Next to execute:
 ![SRV](Part4Images/cfpushsrv.jpg)
 
 If all three of the last commands executed correctly, you should see a route specified towards the bottom of the terminal window. The use of the word option --random-route directs the process to essentially create a random URL which is why I can't tell you exactly what it will be. However, take a look in the screenshot for the following Route: 
-### incidentsp00XXXX-srv-persistent-leopard.cfapps.eu10.hana.ondemand.com
-Once the incidents_P00XXXX-srv process starts, you should be able to paste that URL into a browser and see the application and validate that it is running.
+
+**incidentsp00XXXX-srv-persistent-leopard.cfapps.eu10.hana.ondemand.com**
+
+Once you find the route name that was generated uniquely for you (Cloud Foundry will generated some interesting names), you should be able to paste that URL into a browser and see the application and validate that it is running as it is now running and available on the internet.
 
 Open a web browser, paste your newly created route and you should see a familiar screen that looks like this. Click on one of the entities that you have loaded data into. In my case, I selected Priority. This fully deployed service is now available on the internet and using Hana as a persistence layer. Not bad for 60  minutes of work :-)
 ![HANACF](Part4Images/hanadeploy.jpg)
