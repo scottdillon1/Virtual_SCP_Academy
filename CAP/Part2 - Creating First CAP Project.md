@@ -40,12 +40,17 @@ Once you have typed in that code, it should look like the following:
 Now before we go any further, we will execute a Node JS command to ensure we have everything we need installed before we continue. Open a terminal window by going to the Top Menu and selecting Terminal -> New Terminal
 ![First CAP Schema](Part2Images/newTerminal.jpg)<br>
 You will see a new Terminal window appear in the bottom half of the screen. 
-Within the new terminal window, in order for the next command "npm install" to work properly, you need to ensure you are working within the correct directory. In our case, the name of the directory should be "incidents_p00XXXX". Validate that on the command line, you see "incidents_p00XXXX" as your current folder/structure. If not, change to that directory with the "cd incidents_p00XXXX" command so that you change into the proper directory (Of course XXXX is your specific userid). The command ls-als as shown below is just to show folks how to list what is in the current directory, just in case you used capital letters or used a different name completely :-)
+
+Within the new terminal window, you will execute the command **npm install**
+
+*Note -> in order for the command "npm install" to work properly, you need to ensure you are working within the correct directory. In our case, the name of the directory should be "incidents_p00XXXX". Validate that on the command line, you see "incidents_p00XXXX" as your current folder/structure. If not, change to that directory with the "cd incidents_p00XXXX" command so that you change into the proper directory (Of course XXXX is your specific userid). 
 
 Now that you are in the correct directory, we will execute npm install<br>
 ![NPM Install](Part2Images/newTerminalCreated.jpg)
 
-Now we will introduce you to a very useful command **cds watch**, by typing in the following syntax in the terminal window and pressing return, each time you change the project structure, it will automatically save and redeploy those project changes. 
+Now we will introduce you to a very useful command **cds watch**.
+
+Enter **cds watch** in the terminal window and press return. As long as that command is running, each time you change the project structure, it will automatically save and redeploy those project changes. 
 
 Once the **cds watch** command is running, go into the editor and make a small change to the code to see the effect. For example, if you remove 2-3 letters from the word entity, you should see a bunch of errors almost immediately. In addition, you can also try the code completion by removing a few letters from the word entity and then pressing "Control and the Space Bar"...you should be prompted for options.
 
@@ -113,7 +118,7 @@ Relationships between different artifacts form the core of any working applicati
     entity Category : IncidentsCodeList {}
 
 
-Once that code is in place and if your CDS Watch is still running, you should see the following:
+Once that code is in place and if your *cds watch* is still running, you should see the following:
 ![schemamod](Part2Images/SchemaWithAssociation.jpg)
 
 Again, you should be prompted with a pop-up box to open the service in a new window. (If not, refer to instructions at the top of page)
