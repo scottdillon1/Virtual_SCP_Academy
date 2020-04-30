@@ -8,7 +8,10 @@ This is a little trick that tells applications running on NodeJs to use SQLite w
 Save the "package.json" file and from the terminal window, try executing the **cds run** command as in the screenshot, you should see it complain about the fact it cannot find the module "sqlite3".
 ![SqliteInstall](Part3Images/SQLiteNotFound.jpg)
 
-From the terminal window, from the incidents_p00XXXX directory, execute "npm add sqlite3 -D". This will install the NodeJS module for Sqlite.
+From the terminal window, from the incidents_p00XXXX directory, execute 
+
+    npm add sqlite3 -D
+ This will install the NodeJS module for Sqlite.
 ![SqliteInstall](Part3Images/SqliteInstall.jpg)
 Now that we have the SQLite module install, we should be able to run the **cds run** command again from the terminal window and the CDS project should find, connect and run using SQLite as the following screenshot indicates:
 ![SqliteInstall](Part3Images/cdsrun.jpg)
@@ -50,7 +53,7 @@ Now we will do the same thing for three other tables, in the same folder (aka db
     resolved;Resolved;Resolution has been found
     closed;Closed;Incident was acknowleged closed by end user
 
-# scp.cloud.Individual.csv
+# scp.cloud.Individual.csv - GDPR IS A BEAST, DON'T PUT REAL EMAIL
     ID;firstName;lastName;emailAddress
     067460c5-196c-4783-9563-ede797399da8;Scott;Dillon;scott.dillon@sap.com
     efec3e9f-ceea-4d17-80a7-50073f71c322;Mark;Michaud;mark.michaud@sap.com
@@ -68,6 +71,6 @@ Now that all of the csv files have been created and placed in the "data" directo
 
 If you see the "filling scp" command 4 times on your screen like you do in mine, this is good news. You can open the service one last time and click on any of the 4 entities you just uploaded data into and you should see that data. If you don't see data, double check that the name of the flat file is exactly the name of the entity in question.
 
-Now that you have the backend services running on SQLite in a local environment, it's time to get this project running on Hana in the CLoud.
+Now that you have the backend services running on SQLite in a local environment, it's time to get this project running on Hana in the Cloud.
 
 [Next Exercise](Part4%20-%20Deploy%20to%20CF.md)
