@@ -34,18 +34,25 @@ Within the file, you will now type in/copy paste the following Syntax to create 
       incidentResolutionDate : Date                          @title : 'ResolutionDate';
     }
 
-Once you have typed in that code, it should look like the following:
+Once you have typed in that code and saved the file, it should look like the following:
 ![First CAP Schema](Part2Images/firstSchema.jpg)
 
 Now before we go any further, we will execute a Node JS command to ensure we have everything we need installed before we continue. Open a terminal window by going to the Top Menu and selecting Terminal -> New Terminal
 ![First CAP Schema](Part2Images/newTerminal.jpg)<br>
 You will see a new Terminal window appear in the bottom half of the screen. 
 
-Within the new terminal window, you will execute the command **npm install**
+Within the new terminal window, you will execute the command 
+
+`npm install`
 
 *Note -> in order for the command "npm install" to work properly, you need to ensure you are working within the correct directory. In our case, the name of the directory should be "incidents_p00XXXX". Validate that on the command line, you see "incidents_p00XXXX" as your current folder/structure. If not, change to that directory with the "cd incidents_p00XXXX" command so that you change into the proper directory (Of course XXXX is your specific userid).*
 
-Now that you are in the correct directory, we will execute npm install<br>
+Now that you are in the correct directory, we will execute 
+    
+
+`npm install`
+
+    
 ![NPM Install](Part2Images/newTerminalCreated.jpg)
 
 Now we will introduce you to a very useful command **cds watch**.
@@ -55,7 +62,8 @@ Enter **cds watch** in the terminal window and press return. As long as that com
 Once the **cds watch** command is running, go into the editor and make a small change to the code to see the effect. For example, if you remove 2-3 letters from the word entity, you should see a bunch of errors almost immediately. In addition, you can also try the code completion by removing a few letters from the word entity and then pressing "Control and the Space Bar"...you should be prompted for options.
 
 
-     cds watch
+  `cds watch`
+
 ![cds watch](Part2Images/cdsWatch.jpg)
     
 If you have entered the code correctly for the first part of your schema, you should now see a pop up on the right of the screen that looks like this....Click on the button that says "Expose and Open" to see if your initial empty service gets rendered in the browser window.
@@ -63,7 +71,11 @@ If you have entered the code correctly for the first part of your schema, you sh
 In the browser window, if everything went okay, you should see the following:
 ![cds watch](Part2Images/serviceRunning.jpg)
 
-Essentially, what you see is not much but it is running :-) However, now that we have your entity for SafetyIncidents defined, you can go back and quite easily add a service definition to exposes this entity as an oData/Rest service. Lets do that now by creating a new file within the "Srv" folder called "incidentService.cds".
+Essentially, what you see is not much but it is running :-) However, now that we have your entity for SafetyIncidents defined, you can go back and quite easily add a service definition to exposes this entity as an oData/Rest service. Lets do that now by creating a new file within the "srv" folder called 
+
+`incidentService.cds`
+
+
 ![incident service](Part2Images/newFileIncidentService.jpg)<br>
 Within this incidentService.cds, you will enter the following code:
 ****notice the first line references the schema file we created earlier****
@@ -75,13 +87,13 @@ Within this incidentService.cds, you will enter the following code:
         entity SafetyIncidents as projection on cloud.SafetyIncidents;
     }
 
-Now we are getting somewhere and you should see a screen similiar to the following one below. 
-Notice at the bottom of the screen in the terminal window it now says serving IncidentService at { : '/Incident}, on the right side of the screen, click the Popup to "Open in New Tab".
+Now we are getting somewhere and after saving, you should see a screen similiar to the following one below. 
+Notice at the bottom of the screen in the terminal window it now says serving IncidentService at { : '/incident}, on the right side of the screen, click the Popup to "Open in New Tab".
 ![cds watch](Part2Images/isServiceRunning.jpg)
 
 If your service is running properly, you will now see your first service exposed as Rest/oData.
 ![Rest oData](Part2Images/isMetaData.jpg)<br>
-You will see the reference to /Incident as mentioned above and you will see a link to the $metadata. Click on the $metadata to see the definition of your entity as specified in the "schema.cds" file above. However, you should also see additional fields such as "createdBy", why are they there? Take a quick peak around within this file and notice that a large number of annotations have also been added to this file. At this point, we now have a running service which you could easily give to a UI5 developer and have him/her start developing a UI and all of this with a very minimal amount of code. We still have much to do, we will now flush out our model with some additional attributes and relationships.
+You will see the reference to /incident as mentioned above and you will see a link to the $metadata. Click on the $metadata to see the definition of your entity as specified in the "schema.cds" file above. However, you should also see additional fields such as "createdBy", why are they there? Take a quick peak around within this file and notice that a large number of annotations have also been added to this file. At this point, we now have a running service which you could easily give to a UI5 developer and have him/her start developing a UI and all of this with a very minimal amount of code. We still have much to do, we will now flush out our model with some additional attributes and relationships.
 
 Relationships between different artifacts form the core of any working application. Now we will beef up our model a little bit and add a few "assocations" to see how these are implemented. Replace what is currently in schema.cds with what follows. If your **cds watch** command is still running, you should see it get busy and eventually provide a link to click to see the new structure:
 

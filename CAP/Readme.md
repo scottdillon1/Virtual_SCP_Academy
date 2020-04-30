@@ -5,9 +5,9 @@ In this section, we will be setting up our backend services required to store th
 
 (*****At this point, you should have a dedicated user for the next 5 weeks****)
 
-**Open a New Browser Window and use the following Link..It's really important to append your userID at the end of the link **
+**Open a New Browser Window and use the following Link**
 
-https://virtual-scp-roadshow.cfapps.eu10.hana.ondemand.com/P00XXXX
+https://virtual-scp-roadshow.cfapps.eu10.hana.ondemand.com/
 
 
 For this scenario, we will be using the new Business Application Studio so click on the "Let's Go" within the BAS Tile
@@ -17,7 +17,7 @@ For this scenario, we will be using the new Business Application Studio so click
 You should be prompted with a screen like this one where you will now create a Dev Space by clicking the "Create Dev Space" Button.
 ![Business APplication Studio](../Images/BASDEV.jpg)
 
-From here, you will select the SAP CLoud Business Application Template and provide a name for your Dev Space. We would suggest you make this name unique by including your UserName in the name and append something at the end. 
+From here, you will select the SAP Cloud Business Application Template and provide a name for your Dev Space. We would suggest you make this name unique by including your UserName in the name and append something at the end. 
 
 ### Suggest you use P00XXXX_DS for the name. 
 
