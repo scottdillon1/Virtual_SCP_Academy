@@ -58,7 +58,7 @@ Once the **cds watch** command is running, go into the editor and make a small c
 ![cds watch](Part2Images/cdsWatch.jpg)
     
 If you have entered the code correctly for the first part of your schema, you should now see a pop up on the right of the screen that looks like this....Click on the button that says "Expose and Open" to see if your initial empty service gets rendered in the browser window.
-*If for some reason, you don't see a pop-up or the link disappears, click here for instructions on how to view it ![viewport](./viewports.md)
+*If for some reason, you don't see a pop-up or the link disappears, click here for instructions on how to view it ![viewport](./viewPorts.md)*
 
 In the browser window, if everything went okay, you should see the following:
 ![cds watch](Part2Images/serviceRunning.jpg)
