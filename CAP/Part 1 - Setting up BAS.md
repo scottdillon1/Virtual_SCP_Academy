@@ -9,7 +9,7 @@ From here, you will select "New Project from Template".<br>
 Select the Cloud Platform Business Application Project Generator.
 ![Select CAP Template](../Images/CAPtemplate2.jpg)
 
-At this step, you need to provide a name for the project, suggest you use "incidents". After you specifiy a name, Select the check box for "Hana".
+:point_right: At this step, you need to provide a name for the project, suggest you use "incidents". After you specifiy a name, Select the check box for "Hana".
 ![Select Options](../Images/templateoptions.jpg)
 
 Behind the scenes, your project will be generated. Once complete, the screen will return and you will see a pop-up message box in the bottom right to open a workspace with your project, you need to Open the workspace with this pop-up to start work on your project.
