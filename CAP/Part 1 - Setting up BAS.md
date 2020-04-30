@@ -47,7 +47,7 @@ Next, you will be prompted for user credentials...notice you will specify the us
 Now, you will enter the password specified above for your group
 ![Password](../Images/CFPassword.jpg)
 
-Select the Cloud Foundry Organization that you have been assigned to by your instructor.
+Select the Cloud Foundry Organization, there should only be one unlike inthe screenshot :-)
 ![Log Into CF](../Images/FindCommand4.jpg)
 
 Select the Cloud Foundry Space that is also auto-populated.
