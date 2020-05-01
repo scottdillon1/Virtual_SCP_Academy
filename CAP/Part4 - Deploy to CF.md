@@ -24,11 +24,11 @@ Once the build process has completed, you will now execute 3 commands in success
 
 Execute the following command:
 
-`cf create-service hanatrial hdi-shared incidents_P00XXXX-db-hdi-container`
+`cf create-service hanatrial hdi-shared incidents_p00XXXX-db-hdi-container`
 
 *As you can see from screenshot above, it's providing a link based on my project name that has my ID in it....be sure to look for this line and be sure it matches when you create the hdi container. If you don't use the correct name, the next 2 steps will likely not work *
 
-This will create a hana container called "incidents-P00XXXX-db-hdi-container"
+This will create a hana container called "incidents-p00XXXX-db-hdi-container"
 
 ![HDI Container](Part4Images/createhdi.jpg)
 
@@ -36,7 +36,7 @@ Next to execute:
 
 `cf push -f gen/db`
 
-The HDI instance creation might take a couple of minutes, so if you see an error saying "An operation for service instance incidents_P00XXXX-db-hdi-container is in progress" just wait a couple of seconds and retry.
+The HDI instance creation might take a couple of minutes, so if you see an error saying "An operation for service instance incidents_p00XXXX-db-hdi-container is in progress" just wait a couple of seconds and retry.
 
 ![PushDB](Part4Images/cfpushdb.jpg)
 
