@@ -20,7 +20,7 @@ This command will build all of the relevant Hana artifacts and place them in a n
 
 ![BUildall](Part4Images/cdsbuildall.jpg)
 
-Once the build process has completed, you will now execute 3 commands in succession in order to create the Hana HDI container on Cloud Foundry, deploy the Hana Artifacts and the SRV artifcats. If you notice the very last line in the above screenshot, the build process actuall tell us what command we need to run in order to create the hdi container. We will modify it slightly to use the hanatrial schema environment but the rest is the same.
+Once the build process has completed, you will now execute 3 commands in succession in order to create the Hana HDI container on Cloud Foundry, deploy the Hana Artifacts and the SRV Artifacts. If you notice the very last line in the above screenshot, the build process actuall tell us what command we need to run in order to create the hdi container. We will modify it slightly to use the hanatrial schema environment but the rest is the same.
 
 Execute the following command:
 
