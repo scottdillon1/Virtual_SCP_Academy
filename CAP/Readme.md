@@ -5,9 +5,9 @@ In this section, we will be setting up our backend services required to store th
 
 (*****At this point, you should have a dedicated user for the next 5 weeks****)
 
-**Open a New Browser Window and use the following Link...note you will need to put your USERID where the 4 XXXXs are.**
+**Open a New Browser Window and use the following Link**
 
-https://virtual-scp-roadshow.cfapps.eu10.hana.ondemand.com/P00XXXX
+https://virtual-scp-roadshow.cfapps.eu10.hana.ondemand.com
 
 
 For this scenario, we will be using the new Business Application Studio so click on the "Let's Go" within the BAS Tile
