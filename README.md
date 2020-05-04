@@ -1,4 +1,4 @@
-# Virtual SAP CLoud Platform Technical Academy
+# Virtual SAP Cloud Platform Technical Academy
 Over the course 5 weeks, particpants will be implementing a Safety Incident Application based on an an event driven architecture. The core compoents of this architcture will be:
 1. SAP CLoud Platform Application Programming Model or CAP for short (based on Node JS)
 2. Enterprise Messaging and FAAS (Functions as a Service)

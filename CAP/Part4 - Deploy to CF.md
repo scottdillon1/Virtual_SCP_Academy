@@ -34,7 +34,7 @@ This will create a hana container called "incidents-p00XXXX-db-hdi-container"
 
 Next to execute:
 
-`cf push -f gen/db`
+`cf push -f gen/db -k 256M`
 
 The HDI instance creation might take a couple of minutes, so if you see an error saying "An operation for service instance incidents_p00XXXX-db-hdi-container is in progress" just wait a couple of seconds and retry.
 
@@ -42,7 +42,7 @@ The HDI instance creation might take a couple of minutes, so if you see an error
 
 Next to execute:
 
-`cf push -f gen/srv --random-route`
+`cf push -f gen/srv --random-route -k 256M`
 
 ![SRV](Part4Images/cfpushsrv.jpg)
 

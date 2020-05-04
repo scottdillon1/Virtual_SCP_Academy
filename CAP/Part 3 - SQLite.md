@@ -54,10 +54,10 @@ Now we will do the same thing for three other tables, in the same folder (aka db
     resolved;Resolved;Resolution has been found
     closed;Closed;Incident was acknowleged closed by end user
 
-# scp.cloud.Individual.csv - GDPR IS A BEAST, DON'T PUT REAL EMAIL
+# scp.cloud.Individual.csv
     ID;firstName;lastName;emailAddress
-    067460c5-196c-4783-9563-ede797399da8;Scott;Dillon;scott.dillon@sap.com
-    efec3e9f-ceea-4d17-80a7-50073f71c322;Mark;Michaud;mark.michaud@sap.com
+    067460c5-196c-4783-9563-ede797399da8;Scott;D;scott.d@saptechnicalacademy.com
+    efec3e9f-ceea-4d17-80a7-50073f71c322;Mark;M;mark.m@saptechnicalacademy.com
 
 # scp.cloud.Priority.csv
     code;name;descr
