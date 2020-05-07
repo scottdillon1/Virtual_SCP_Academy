@@ -13,9 +13,11 @@ Select the Cloud Platform Business Application Project Generator and click Next.
 
 **Did you include your username in the name of your project....you should**
 
-****ATTENTION****
+****ATTENTION****<BR>
+  
 **BE SURE TO USE A LOWER CASE "p" in the project name**
-****ATTENTION****
+
+****ATTENTION****<BR>
 Select the check box for "Hana".
 
 Click Next
