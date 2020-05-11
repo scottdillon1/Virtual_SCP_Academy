@@ -86,6 +86,11 @@ The application gets imported under the **Workspace** folder and the file struct
 
 ### Update Deployment Descriptors
 
+A very important part of understanding and using SAP Cloud Platform is the notion of an MTA. The definition of an MTA as per the documentation is:
+**A multi-target application (MTA) is comprised of multiple parts (modules), created with different technologies and deployed to different targets, but with a single, common lifecycle.**
+
+An MTA is logically a single application, consisting of multiple related and interdependent parts that are developed using different technologies or programming paradigms and designed to run on different target runtime environments, with a single, consistent lifecycle. 
+
 The MTA deployment descriptor defines the prerequisites and dependencies for the deployment of a multi-target application. The deployment description is specified in an mta.yaml file.
 
 ```
