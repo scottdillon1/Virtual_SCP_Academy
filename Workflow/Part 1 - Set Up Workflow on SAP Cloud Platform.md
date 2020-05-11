@@ -194,13 +194,15 @@ Take a look around your mta.yaml file in the editor.
     * When the workflowsetup MTA is deployed it will create an instance of the workflow service. **So the workflow setup project must be deployed first.**
     * Then when we deploy the IncidentFlows project, it will try to deploy the workflow to the workflow service that was created previously. 
 
-You will give your workflow a unique ID so that your workflow is easy to find and had a uniqueID. Right click on the workflow ***incidentassignment.workflow** and click on ***open code editor*
+You will give your workflow a unique ID so that your workflow is easy to find and has a uniqueID. 
+- Within the IncidentAssignmentFlow, expand the workflows folder
+- Right click on the workflow ***incidentassignment.workflow** and click on ***open code editor*
+- Change name by adding userID at beginning
+- Change id by adding userID at beginning
 
 ![SCPWebIDEBuild](Part2Images/idworkflowwithuser.png)
 
-You will provide a unique id to two fields **name** and **id**. Add your user ID at the beginning of the existing values. 
-
-Save your changes 
+*Save your changes *
 
 Double click on the **incidentassignment.workflow** file to see the visual representation of the workflow. Click on the whitespace on the screen and you should see the **Workflow Properties** tab on the right. You should see the changes you just made.
 
