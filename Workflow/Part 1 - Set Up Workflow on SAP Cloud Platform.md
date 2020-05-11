@@ -149,6 +149,7 @@ Now let's change the basic information. click on the tab for "Basic Information"
 Save your changes 
 
 Now we have to edit the file directly. Open the MTA file in "Code Editor". We will manually replace the remaining "gs" entries. Replace them with your User ID (P00XXXX)
+**If you notice entries after line 30 that are still using the "gs_" prefix, change those as well**
 
 ![SCPWebIDEOpenDev](Part2Images/mtacodeeditor.png)
 
