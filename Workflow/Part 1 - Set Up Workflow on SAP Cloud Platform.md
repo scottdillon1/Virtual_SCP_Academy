@@ -82,7 +82,7 @@ The application gets imported under the **Workspace** folder and the file struct
   
 ![SCPWebIDEOpenDev](Part2Images/importedfiles.png)
   
-## Step 5 Build and Deploy
+## Step 5 Update Deployment Descriptors (mta.yaml)
 
 ### Update Deployment Descriptors
 
