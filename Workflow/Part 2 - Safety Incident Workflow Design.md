@@ -186,14 +186,14 @@ You have just added a UI to the workflow. You will see the UI when we test the w
 ### The UI is Created - How does the CDS service get updated 
 
 Now that you have created the UI, a decision will have to be taken by the safety officer. Do they **Confirm** or **Reject**.
-Immediatly right after the User Task that was just created, is another task to update the service. It is called "Prepare Incident Update". 
+Right after the User Task that was just created, there is another task to update the service. It is called "Prepare Incident Update". 
 
 Lets take a look to make sure it can access the results from the UI.
 
 Double click on the file **incidentassignment.workflow**. This will open the workflow editor.
 
-Click on the User Task that you had just added above. In my example it is called "UserTask2"
-* Note : The name of your task might be different 
+Click on the User Task that you had just added above. In my example it is called "UserTask2". 
+**Note : The name of your task might be different and it's case sensitive **
 
 ![MTADownload](Part2Images/uiselectusertask.png)
 
