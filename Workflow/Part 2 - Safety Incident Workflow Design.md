@@ -172,7 +172,7 @@ Now it is time to configure the UI decisions. The UI workflow context stores the
 **If by chance you don't see the DECISIONS tab, it might be because you have your form screen too small...try to widen it a little**
 ![MTADownload](Part2Images/uidecisions.png)
 
-To add or delete a row press the add or trach can icons.
+To add or delete a row press use the add or trash can icons.
 
 | Text | ID | Type | 
 | ------------- | ------------- |------------- |
