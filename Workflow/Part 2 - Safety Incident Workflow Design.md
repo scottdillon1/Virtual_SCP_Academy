@@ -168,6 +168,7 @@ It should look like this
 Now it is time to configure the UI decisions. The UI workflow context stores the decision the user has selected.
 
 * Press the decision tab at the top of the screen 
+**If by chance you don't see the DECISIONS tab, it might be because you have your form screen too small...try to widen it a little**
 ![MTADownload](Part2Images/uidecisions.png)
 
 To add or delete a row press the add or trach can icons.
