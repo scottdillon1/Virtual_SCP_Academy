@@ -31,7 +31,9 @@ You should now see the User Task included in the workflow. It should look like t
 
 #### Configure the Properties
 
-Click on "New Safety Incident" User Task. On the right-hand side you will see the "User Task" properties. Click on the "General" tab.
+Click on "UserTask2". 
+On the right-hand side you will see the "User Task" properties. 
+Click on the "General" tab.
 
 ![MTADownload](Part2Images/uigeneral.png)
 
@@ -66,11 +68,13 @@ Then you will get a popup to create the UI. Fill it out as per the following ima
 
 ![MTADownload](Part2Images/uinewpopup.png)
 
-The User Interface tab will look like this.
+The User Interface tab will look like this. This is the UI editor. 
+Leave it open, we will come back to it in a minute.
+This is where you will design your UI.
 
-![MTADownload](Part2Images/uiuifinal.png)
+![MTADownload](Part2Images/uieditorincidentform.png)
 
-Click on the IncidentForm.form to launch the UI editor.
+Save your changes
 
 #### Configure the UI
 
@@ -84,7 +88,8 @@ This UI will have two sections
 * Notes
   * Comment
   
-To design the UI, you have to open the editor. Double click on the file **IncidentForm.form**. It will open the editor.
+To design the UI, you have to open the editor (In case it is not already open). 
+Double click on the file **IncidentForm.form**. It will open the editor.
 
 ![MTADownload](Part2Images/uiopeneditor.png)
 
