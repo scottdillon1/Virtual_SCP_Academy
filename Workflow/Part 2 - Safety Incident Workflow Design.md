@@ -84,13 +84,13 @@ This UI will have two sections
 * Notes
   * Comment
   
-To design the UI, you have to open the ediotr. Double click on the file **IncidentForm.form**. It will open the editor.
+To design the UI, you have to open the editor. Double click on the file **IncidentForm.form**. It will open the editor.
 
 ![MTADownload](Part2Images/uiopeneditor.png)
 
 Next we will build the layout 
 
-Use the "Add Section" button to add two sections. Give them both an title
+Use the "Add Section" button to add two sections. Give them both a title
 
 ![MTADownload](Part2Images/uiaddsection.png)
 
@@ -170,9 +170,10 @@ Now it is time to configure the UI decisions. The UI workflow context stores the
 * Press the decision tab at the top of the screen 
 
 **If by chance you don't see the DECISIONS tab, it might be because you have your form screen too small...try to widen it a little**
+
 ![MTADownload](Part2Images/uidecisions.png)
 
-To add or delete a row press use the add or trash can icons.
+To add or delete a row - use the "Add" or trash can icons.
 
 | Text | ID | Type | 
 | ------------- | ------------- |------------- |
@@ -193,12 +194,12 @@ Lets take a look to make sure it can access the results from the UI.
 Double click on the file **incidentassignment.workflow**. This will open the workflow editor.
 
 Click on the User Task that you had just added above. In my example it is called "UserTask2". 
-**Note : The name of your task might be different and it's case sensitive **
+**Note: The name of your task might be different and it's case sensitive **
 
 ![MTADownload](Part2Images/uiselectusertask.png)
 
 On the right-hand side, you will see the User Task Properties. On the "General" tab, note down the Task ID. 
-* note: This ID is case sensitive. Copy the id. You may need it in a few minutes.
+* Note: This ID is case sensitive. Copy the id. You may need it in a few minutes.
 
 Now let's check the script task that updates the CDS service after the workflow. This task will set the status of the incident. 
 
@@ -216,7 +217,7 @@ In the first line of the script, you can see that we are checking the decision t
 You have to make sure that reference to the usertask ID has the same ID of your User Task that was just created. 
 
 In my example it is "usertask2" and this matches the id from my user task, so there is nothing to change.
-If it is not the same then change it to the correct id and **save** the change 
+If it is not the same, then change it to the correct id and **save** the change 
 
 Once you update the script. You are done creating the UI.
 
@@ -238,7 +239,7 @@ The Safety Incident Workflow uses all three of these tasks.
 
 The workflow will be triggered via api. Triggering the workflow via api will only take place in a future session. The API's to trigger a workflow can be found here https://api.sap.com/api/SAP_CP_Workflow_CF/resource .
 
-When a Safety Incident is logged, the CDS service will generate a unique ID. This ID will be passed to the workflow. If the workflow requires additional data, it will call the CDS service that was created in week one (i.e. https://davidk-srv.cfapps.us10.hana.ondemand.com/)
+When a Safety Incident is logged, the CDS service will generate a unique ID. This ID will be passed to the workflow. If the workflow requires additional data, it will call the CDS service that was created in week one (i.e. https://incidentsmaster-srv-sleepy-camel.cfapps.eu10.hana.ondemand.com/)
 
   * You will see this in detail in part 4 when you test the workflow.
 
@@ -284,7 +285,7 @@ to the Internet or On-Premise  (via HTTP or RFC).
 For more information refer to the following link https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/84e45e071c7646c88027fffc6a7bb787.html
 ```
 
-Now lets take a look at the path in the service task properties. This path should look familiar because you have created it in week one. Click on the following link https://davidk-srv.cfapps.us10.hana.ondemand.com/ (this will eventually be replaced by your service) to see the SafetyIncidents Service that is called here.  
+Now lets take a look at the path in the service task properties. This path should look familiar because you have created it in week one. Click on the following link https://incidentsmaster-srv-sleepy-camel.cfapps.eu10.hana.ondemand.com/ (this will eventually be replaced by your service) to see the SafetyIncidents Service that is called here.  
 
 ![MTADownload](Part3Images/safetyincident.png)
 
@@ -302,6 +303,6 @@ The last important part of this service request is the "Response Variable". Here
 
 This is exactly how we display the description on the UI above - Take a look.
 
-Well that's it, we did not cover each task, but you now know the high level design of the safety incident workflow and understand how they interact with the CDS service. 
+Well that's it, we did not cover each task, but you now know the high-level design of the safety incident workflow and understand how they interact with the CDS service. 
 
 [Next](Part%203%20-%20Build%20and%20Deploy.md)
