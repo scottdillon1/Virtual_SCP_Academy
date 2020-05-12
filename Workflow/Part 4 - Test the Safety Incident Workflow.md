@@ -1,6 +1,6 @@
 ## Test the Safety Incident Management Workflow 
 
-In this section you will : 
+In this section you will: 
   
   * Learn how to test the Safety Incident workflow 
   * Optional: Make changes to the workflow to point to your service that you created in week one of this technical academy
@@ -8,9 +8,11 @@ In this section you will :
 ## Test the Safety Incident Workflow 
 
 We have created an application to help test your workflow. Access the following link on your phone, ipad or laptop 
-* [Test Application](https://se-technical-academy-xaea0415-cf-eu10-dev-incidentreportd439811.cfapps.eu10.hana.ondemand.com/nsIncidentReport/index.html)
+* [Test Application](https://se-technical-academy-vr-d-cf-eu10-dev-incidentreport-approuter.cfapps.eu10.hana.ondemand.com/nsIncidentReport/index.html)
 
-You should see the following application (note: it might look different depending the device). This is a preview of what you will be building in a few weeks.
+* Once you have the test application open - keep it open we will use it for testing
+
+You should see the following application (Note: it might look different depending the device). This is a preview of what you will be building in a few weeks.
 
 ![MTADownload](Part3Images/testapp.png)
 
@@ -20,25 +22,68 @@ You have two options to create Safety Incidents:
 * In the lower right-hand corner, we have added a Conversational AI bot.
   * Click on it to activate the bot and create safety incidents.
   * For more details on the chat bot - stay tuned this will be covered in a future session
+  
+ ### Create Incident with the application  
+
+You can create a new Safety Incident by pressing the + sign in the upper right hand corner of the screen.
 
 ![MTADownload](Part3Images/testnewincident.png)
 
-![MTADownload](Part3Images/testnewincidentchat.png)
+Fill in the details and then press the save icon.
+
+![MTADownload](Part3Images/testnewincidentsave.png)
+
+### Create incident with the Chat Bot
+
+For the purpose of this session we have created a chat bot to create incidents. this is a preview of what you will be building in a future session. 
+
+In the lower right-hand section of the application you will see "SAP's Digital Assistant". 
+Click on the yellow bar. This will launch the chat.
+
+![MTADownload](Part3Images/testchatbot.png)
+
+You can now interact with the bot via the keyboard. Lets have the bot create an incident.
+
+Type the following when prompted: 
+* **Create Incident**
+* Incident Category : **Software**
+* Incident Priority : **High**
+* Title : **Screen is Frozen for user P00XXXX** 
+
+Note : 
+  * Change the P00XXXX to your User ID 
+  * This bot is not fully trained so there is a limited set of supported features.  This will be covered in a future session.
+  
+![MTADownload](Part3Images/botscript.png)
+
+You will notice that the Bot has created the incident for you. You can see the incident ID.
+
+### Search for Incident ID's
 
 You can now search for the incident you just created with the app or the bot to confirm the incident was created.
 
 ![MTADownload](Part3Images/appsearch.png)
 
-Now go to the service https://davidk-srv.cfapps.us10.hana.ondemand.com/ and click the safetyincidents service.
+Now click on your incident to view the details. 
+
+![MTADownload](Part3Images/testsearchdetails.png)
+
+You should see the ID and the status. Both of these values are important for the workflow. 
+Keep this tab open because you will reference it during testing. 
+
+** Do not proceed if the status is not new - make sure it is your incident and the status is new.**
+If there is a problem or question speak with an instructor.
+
+**We are currently using a test CDS service deployed by SAP. In a few weeks we you be using your service that was created in week one.** 
+* SAP Test Service : https://incidentsmaster-srv-sleepy-camel.cfapps.eu10.hana.ondemand.com/ 
 
 ![MTADownload](Part3Images/testservice.png)
 
-Find the service incident that you created. Copy the ID and notice the status "new". Leave this window open.
-
-** Do not proceed if the status is not new - make sure it is your incident and it is new.**
-If there is a problem or question speak with an instructor.*
+Try the "safetyincidents" resource to find the incident that you created with the test application.
 
 ![MTADownload](Part3Images/foundincident.png)
+
+### Test the workflow
 
 Now we are ready to test the workflow. At the end of week three this will all be automated. 
 
@@ -94,9 +139,11 @@ You should now see your workflow. Pay attention to the buttons at the bottom of 
 Question: Why do you only see your workflow and not others?
 ```
 
-Go back to the service and check the status. The same incident now has a status of "assigned".
+Go back to the test application and refresh.
+check the status of your incident. 
+The same incident now has a status of **"assigned"**.
 
-![MTADownload](Part3Images/teststatusassigned.png)
+![MTADownload](Part3Images/testserviceassigned.png)
 
 Now let's go back and accept the workflow as if you are the safety officer in your company. In-order to confirm the workflow you will have to add a comment. Try to confirm without adding a comment - you will get an error. 
 
@@ -104,9 +151,11 @@ Now let's go back and accept the workflow as if you are the safety officer in yo
 
 Add a comment and "Confirm" the workflow by pressing the "Confirm" button at the bottom of the Workflow UI.
 
-Let's check the status again via the API. You can see it has been updated to show that it has been "resolved".
+Let's check the status again via the test application. 
+Just refresh to see the status change. 
+You can see it has been updated to show that it has been **"resolved"**.
 
-![MTADownload](Part3Images/teststatusresolved.png)
+![MTADownload](Part3Images/testserviceresolved.png)
 
 and the last step is to go back to the inbox to see if there are more workflows to action.
 
@@ -115,10 +164,4 @@ and the last step is to go back to the inbox to see if there are more workflows 
 You can see that the inbox has been cleared.
 
 Congratulations - You have successfully deployed, tested and modelled the Safety Incident Workflow and tested the workflow with your service. In the next session - next week you will be adding Enterprise Messaging to connect the CDS service with the workflow. At the end of week three you will be able to create an incident and automatically see the workflow in your inbox.
-
-### (Optional) - Modify the workflow to point to your service
-
-The workflow you have deployed and tested is using a generic test service which all participants are using. In a few weeks you will be creating Safety Incidents. At that time, you will be able to come back to this step to make a minor change to your workflow that was just deployed and point it to your safety incident service.
-
-[Modify the workflow to point to your service]((Optional)%20Modify%20the%20workflow%20to%20point%20to%20your%20service.md)
 
