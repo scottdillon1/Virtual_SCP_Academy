@@ -176,7 +176,7 @@ Refer to the top of the screen - we will be modifying the resource names. Make s
 
 ![SCPWebIDEBuild](Part2Images/incidentpreyamleditor.png)
 
-Now we will make 4 changes to this file:
+Now we will make 4 changes to this file. Click on the code editor (at the botton of the screen) :
 - Line 1 Change the ID
 - Line 5 Change the name
 - Line 9 Replace **gs** with your user ID (P00XXXX) similar to the image below. 
