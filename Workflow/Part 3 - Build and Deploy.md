@@ -57,6 +57,11 @@ Let the build go - it may take a few minutes. The deployment descriptors we modi
 
 ![SCPWebIDEBuild](Part3Images/wfdeploysuccess.png)
 
+Notice the message in the log "". This is the endpoint to access your Fiori Launchpad portal. 
+Copy the URL and paste it in your browser. Hit return and now you see the Fiori Launchpad.
+
+![SCPWebIDEBuild](Part3Images/deployflp.png)
+
 Don't spend too much time on the portal we will use it in the next section, and we still need to deploy the workflow service. 
 
 #### Step 2 : Deploy IncidentFlows
