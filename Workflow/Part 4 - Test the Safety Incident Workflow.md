@@ -144,7 +144,7 @@ The same incident now has a status of **"assigned"**.
 
 ![MTADownload](Part3Images/testserviceassigned.png)
 
-Now let's go back and accept the workflow as if you are the safety officer in your company. In-order to confirm the workflow you will have to add a comment. Try to confirm without adding a comment - you will get an error. 
+Now let's go back and "Confirm" the workflow as if you are the safety officer in your company. In-order to confirm the workflow you will have to add a comment. Try to confirm without adding a comment - you will get an error. 
 
 ![MTADownload](Part3Images/testwfconfirm.png)
 
