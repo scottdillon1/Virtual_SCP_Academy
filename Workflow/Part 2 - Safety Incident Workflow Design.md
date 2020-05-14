@@ -228,6 +228,16 @@ Once you update the script. You are done creating the UI.
 
 ### Identify key components of the Safety Incident Service 
 
+```
+There are no steps to configure or develop in this section.
+
+This next section is intended to provide a common understanding of key terms and 
+provide a common understanding of how the Safety Incident workflow is designed. 
+
+If you would like to proceed with the exercise, 
+continue to the bottom of the this section and click "Next".
+```
+
 The Safety Incident workflow is a collection of linked automatic or human activities that serve a certain goal. The main use case for this workflow is make safety incidents known to the safety officers in near real time and to automate the processing of these incidents. Today its Safety Incidents, tomorrow it could be to automate Employee onboarding.
 
 Lets look at some of the key components of the Safety Incident workflow you have created.
