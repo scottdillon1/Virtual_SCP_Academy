@@ -42,15 +42,6 @@ Select **Cloud Foundry** Preference.
 
 The cloud foundry preferences are required by WebIDE when the Workflow will be deployed. The workflow package will build a Multitarget package. This deployment unit will be deployed to the Cloud Platform runtime.
 
-There are four groups listed below. Each group has thirty users in the group. find your group and then use the configuration associated with the group when linking the WedIDE to your cloud foundry space. It is important that you use the correct group.
-
-| ID Range | API End Point | Organization | space | 
-| ------------- | ------------- |------------- |------------- |
-| P005001 to P005035 | https://api.cf.eu10.hana.ondemand.com |  SE Technical Academy_vr-a-cf-eu10 | dev |
-| P005036 to P005070 | https://api.cf.eu10.hana.ondemand.com |  SE Technical Academy_vr-b-cf-eu10 | dev |
-| P005071 to P005105 | https://api.cf.eu10.hana.ondemand.com |  SE Technical Academy_vr-c-cf-eu10 | dev |
-| P005106 to P005140 | https://api.cf.eu10.hana.ondemand.com |  SE Technical Academy_vr-d-cf-eu10 | dev |
-
 When you are connecting and deploying to Cloud Foundry, you must use the **Platform user and Password**. These users have been setup specifically for this purpose. note: Your platform user is on the landing page when you first logged on.
 
 In the credentials popup, enter your associated platform user and platform user password.
