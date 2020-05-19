@@ -34,6 +34,7 @@ Fill in the details - Pay special attention to the title.
 
 * Note: 
   * You **must** prefix the **Title** with "\*\*P00XXXX\*\*" as indicated in the image. Where P00XXXX is your user ID. 
+    * you must add the "\*\*", before and after your user ID
   * This is important since this will be used by the serverless function to create **your** workflow. 
   * **If you do not use your User ID as indicated above - You will not see the workflow in your inbox**
 
