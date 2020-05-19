@@ -85,7 +85,7 @@ receiver.
 
 ![](.//Part4Images/image14.png)
 
-> <br/>:information_source: **Note that you can move the elements around and resize the Integration Process box!**<br/>
+> :information_source: **Note that you can move the elements around and resize the Integration Process box!**<br/>
 
 Click on Request Reply 1, click on the connector arrow.
 
