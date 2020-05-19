@@ -31,7 +31,11 @@ When you click the '+' icon, the following screen will be shown.
 ![MTADownload](Part4Images/createnew.png)
 
 Fill in the details - Pay special attention to the title. 
-* Note: You must prefix the title with "**P00XXXX**" as indicated in the image. Where P00XXXX is your user ID. This is important since this will be used by the serverless function to create **your** workflow. If you do not use your User ID - You will not see the workflow.
+
+* Note: 
+  * You **must** prefix the **Title** with "\*\*P00XXXX\*\*" as indicated in the image. Where P00XXXX is your user ID. 
+  * This is important since this will be used by the serverless function to create **your** workflow. 
+  * **If you do not use your User ID as indicated above - You will not see the workflow in your inbox**
 
 Press the save icon.
 
