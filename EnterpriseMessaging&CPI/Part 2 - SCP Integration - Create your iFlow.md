@@ -22,7 +22,7 @@ Go to the Process Integration (CPI) service.
 ![](.//Part2Images/image2.png)
 
 > In case the system is asking you again for credentials, just link on the link at the bottom.<br/>
-![](.//Part2Images/image11.png)
+![](.//Part2Images/image12.png)
 
 On this page, note that you have access to all the prebuilt integration
 packages that have been developed by SAP and its partners. These
