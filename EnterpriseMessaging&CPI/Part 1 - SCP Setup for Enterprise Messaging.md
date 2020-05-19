@@ -310,7 +310,7 @@ A funtion is made up of certain key files like;
   
   ![EMMAINPAGE](Part1Images/ecvalues.png)
 
-* lib/index.html
+* lib/index.js
   * Here you will notice the code for the function. This is what will get executed when the function is executed
   
   ![EMMAINPAGE](Part1Images/ecfunctioncode.png)
