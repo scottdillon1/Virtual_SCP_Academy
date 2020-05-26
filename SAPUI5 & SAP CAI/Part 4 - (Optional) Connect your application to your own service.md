@@ -291,7 +291,8 @@ Open the CPI service.
 ![](.//Part4Images/image1.png)
 
 Follow the instructions from this SAP Note:
-<https://launchpad.support.sap.com/#/notes/2715005>.
+<https://launchpad.support.sap.com/#/notes/2715005>. **IMPORTANT: name your 
+certificate CAPservicePXXXXXX_certif.**
 
 Then, go to the Design page.
 
