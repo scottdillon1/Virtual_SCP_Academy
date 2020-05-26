@@ -7,11 +7,11 @@ In this section you will:
 ## Test the Safety Incident Workflow 
 
 We have created an application to help test your workflow. Access the following link on your phone, ipad or laptop 
-* Right click the link and "Open Link in New Tab" : [Test Application](https://se-technical-academy-vr-d-cf-eu10-dev-incidentreport-approuter.cfapps.eu10.hana.ondemand.com/nsIncidentReport/index.html)
+* Right click the link and "Open Link in New Tab" : [landingpage](https://virtual-scp-roadshow.cfapps.eu10.hana.ondemand.com/)
 
 ![MTADownload](Part3Images/landingpagetestappp.png)
 
-* In the "Platform User" tab, click on **"Incidents"** to open your test application.
+* In the "Platform User" tile, click on **"Incidents"** to open your test application.
 
 * Once you have the test application open - keep it open we will use it for testing
 
