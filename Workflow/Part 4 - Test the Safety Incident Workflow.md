@@ -7,7 +7,7 @@ In this section you will:
 ## Test the Safety Incident Workflow 
 
 We have created an application to help test your workflow. Access the following link on your phone, ipad or laptop 
-* Right click th elink and "Open Link in New Tab" : [Test Application](https://se-technical-academy-vr-d-cf-eu10-dev-incidentreport-approuter.cfapps.eu10.hana.ondemand.com/nsIncidentReport/index.html)
+* Right click the link and "Open Link in New Tab" : [Test Application](https://se-technical-academy-vr-d-cf-eu10-dev-incidentreport-approuter.cfapps.eu10.hana.ondemand.com/nsIncidentReport/index.html)
 
 * Once you have the test application open - keep it open we will use it for testing
 
