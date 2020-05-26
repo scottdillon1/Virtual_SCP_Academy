@@ -1,6 +1,11 @@
 # Mobile Services Configuration
 
 From the Launchpad, you will be using 2 icons, the "Mobile Services" and the "Web IDE". 
+
+**Open a New Browser Window and use the following Link**
+
+https://virtual-scp-roadshow.cfapps.eu10.hana.ondemand.com
+
 ![VA Launchpad](images/landingpage.png)
 
 Mobile Services will be used to configure your application and establish connectivity to the data sources that you want to use in your mobile application.
