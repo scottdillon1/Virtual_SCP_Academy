@@ -27,7 +27,8 @@ After you select the organization and space, the mobile services cockpit will op
 We are going to be adding a series of new mobile applications, one for each user. Click on "New" to start the wizard for creating a new mobile application which will be used shortly in the Web IDE.
 ![NewMobileApp](images/newmobileapp.png)
 
-For the configuration setup, it's very important to specify a unique name for the ID of the application. The suggestion is to use your unique userID that you have been provided. So change the P00XXXX in the screenshot to your unique userid. Once you have completed the details, click next. 
+For the configuration setup, it's very important to specify a unique name for the ID of the application. The suggestion is to use your unique userID that you have been provided. So change the P00XXXX in the screenshot to your unique userid. Once you have completed the details, click next.
+
     Name : SafetyIncidents
     Description: A mobile application for viewing and creating safety incidents
     
