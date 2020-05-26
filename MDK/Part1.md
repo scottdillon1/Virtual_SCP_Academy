@@ -28,6 +28,9 @@ We are going to be adding a series of new mobile applications, one for each user
 ![NewMobileApp](images/newmobileapp.png)
 
 For the configuration setup, it's very important to specify a unique name for the ID of the application. The suggestion is to use your unique userID that you have been provided. So change the P00XXXX in the screenshot to your unique userid. Once you have completed the details, click next. 
+    Name : SafetyIncidents
+    Description: A mobile application for viewing and creating safety incidents
+    
 ![MobileAppConf](images/mobileappconfig.png)
 
 The Mobile Services offering has many features that we can automatically add to our application without additional coding. For our purpose, there are a couple that are really important for our use case. Select/deselect the options as highlighted in the screenshot. Of particular importance are the **Mobile Connectivity** and the **Mobile App Update**. If these 2 are not selected, you are destined for problems :-) Click Finish to start the provisioning of your mobile application.
