@@ -148,7 +148,7 @@ Copy the code below and paste it in your **Terminal**, then press *Enter*.
 
 Run your new application to test it.
 
-1. Open the **Run Configurations** view and click **+** and select **IncidentReport**.
+1. Open the **Run Configurations** (Play icon on the left-hand side) view and click **+** and select **IncidentReport**.
 
 ![Create Run Configuration](Part1Images/RunConfiguration.png)
 
