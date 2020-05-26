@@ -277,9 +277,9 @@ You should now see "The IncidentFlows project has been deployed."
 
 The workflow is now pointing to **your** Safety Incident Service.  
 
-## Step 6 - Adjust your IFlow
+## Step 6 - Adjust your iFlow
 
-Last step, you need to adjust your iFlow so that it retrieves the
+The last step is to adjust your iFlow so that it retrieves the
 information from your own CAP service.
 
 Go back to the Landing Page
