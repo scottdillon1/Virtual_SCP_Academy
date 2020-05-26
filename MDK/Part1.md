@@ -57,10 +57,10 @@ Here we only need to specify the name of the destination and the URL of the serv
 
 ** The following is a list of the URLs that you will use, please pick the one that corresponds to your group **
 
-    Group A: https://incidentsmaster-srv-noisy-bongo.cfapps.eu10.hana.ondemand.com/ 
-    Group B: https://incidentsmaster-srv-anxious-quokka.cfapps.eu10.hana.ondemand.com/ 
-    Group C: https://incidentsmaster-srv-patient-lynx.cfapps.eu10.hana.ondemand.com/  
-    Group D: https://incidentsmaster-srv-sleepy-camel.cfapps.eu10.hana.ondemand.com/
+    Group A: https://incidentsmaster-srv-noisy-bongo.cfapps.eu10.hana.ondemand.com/incident 
+    Group B: https://incidentsmaster-srv-anxious-quokka.cfapps.eu10.hana.ondemand.com/incident 
+    Group C: https://incidentsmaster-srv-patient-lynx.cfapps.eu10.hana.ondemand.com/incident
+    Group D: https://incidentsmaster-srv-sleepy-camel.cfapps.eu10.hana.ondemand.com/incident
 
 
 ![NewMobileCreated](images/mobiledest.png)
