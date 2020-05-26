@@ -254,7 +254,16 @@ The Safety Incident Workflow uses all three of these tasks.
 
 The workflow will be triggered via api. Triggering the workflow via api will only take place in a future session. The API's to trigger a workflow can be found here https://api.sap.com/api/SAP_CP_Workflow_CF/resource .
 
-When a Safety Incident is logged, the CDS service will generate a unique ID. This ID will be passed to the workflow. If the workflow requires additional data, it will call the CDS service that was created in week one (i.e. https://incidentsmaster-srv-sleepy-camel.cfapps.eu10.hana.ondemand.com/)
+When a Safety Incident is logged, the CDS service will generate a unique ID. This ID will be passed to the workflow. If the workflow requires additional data, it will call the CDS service that was created in week on.
+
+Note: We have deployed four test services, one for each subaccount (A,B,C,D). 
+
+| Subaccount | Service | 
+| ------------- | ------------- |
+| A | https://incidentsmaster-srv-noisy-bongo.cfapps.eu10.hana.ondemand.com/ |
+| B | https://incidentsmaster-srv-anxious-quokka.cfapps.eu10.hana.ondemand.com/ |
+| C | https://incidentsmaster-srv-patient-lynx.cfapps.eu10.hana.ondemand.com/ |
+| D | https://incidentsmaster-srv-sleepy-camel.cfapps.eu10.hana.ondemand.com/ |
 
   * You will see this in detail in part 4 when you test the workflow.
 
@@ -300,7 +309,7 @@ to the Internet or On-Premise  (via HTTP or RFC).
 For more information refer to the following link https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/84e45e071c7646c88027fffc6a7bb787.html
 ```
 
-Now lets take a look at the path in the service task properties. This path should look familiar because you have created it in week one. Click on the following link https://incidentsmaster-srv-sleepy-camel.cfapps.eu10.hana.ondemand.com/ (this will eventually be replaced by your service) to see the SafetyIncidents Service that is called here.  
+Now lets take a look at the path in the service task properties. This path should look familiar because you have created it in week one. Click on the service link for your subaccount, to see the SafetyIncidents Service that is called here.  
 
 ![MTADownload](Part3Images/safetyincident.png)
 
