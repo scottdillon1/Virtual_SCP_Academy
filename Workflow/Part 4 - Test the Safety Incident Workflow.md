@@ -9,6 +9,10 @@ In this section you will:
 We have created an application to help test your workflow. Access the following link on your phone, ipad or laptop 
 * Right click the link and "Open Link in New Tab" : [Test Application](https://se-technical-academy-vr-d-cf-eu10-dev-incidentreport-approuter.cfapps.eu10.hana.ondemand.com/nsIncidentReport/index.html)
 
+![MTADownload](Part4Images/landingpagetestappp.png)
+
+* In the "Platform User" tab, click on **"Incidents"** to open your test application.
+
 * Once you have the test application open - keep it open we will use it for testing
 
 You should see the following application (Note: it might look different depending the device). This is a preview of what you will be building in a few weeks.
