@@ -1,0 +1,91 @@
+<mvc:View
+	controllerName="ns.IncidentReportP00XXXX.controller.Object"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:semantic="sap.f.semantic"
+    xmlns:core="sap.ui.core" 
+	xmlns:f="sap.ui.layout.form">
+
+	<semantic:SemanticPage
+		id="page"
+		headerPinnable="false"
+		toggleHeaderOnTitleClick="false"
+		busy="{objectView>/busy}"
+		busyIndicatorDelay="{objectView>/delay}">
+
+		<semantic:titleHeading>
+   		<Button icon="sap-icon://nav-back" press="onNavBack" type="Transparent"/>
+   	</semantic:titleHeading>
+	
+   	<semantic:headerContent>
+   		<ObjectIdentifier
+		title="{title}"
+   		text="{description}"/>
+   	</semantic:headerContent>
+
+		<semantic:sendEmailAction>
+			<semantic:SendEmailAction id="shareEmail" press=".onShareEmailPress"/>
+		</semantic:sendEmailAction>
+
+<semantic:content >
+            <f:Form editable="false">
+				<f:layout>
+					<f:ResponsiveGridLayout backgroundDesign="Solid" labelSpanXL="12" labelSpanL="12" labelSpanM="12" labelSpanS="12" adjustLabelSpan="false"
+						emptySpanXL="0" emptySpanL="0" emptySpanM="0" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1" singleContainerFullSize="true"/>
+				</f:layout>
+				<f:formContainers>
+					<f:FormContainer>
+						<f:formElements>
+							<f:FormElement>
+								<f:label>
+									<Label text="Title" design="Bold"/>
+								</f:label>
+								<f:fields>
+									<Text id="titleText" text="{title}"/>
+								</f:fields>
+							</f:FormElement>
+							<f:FormElement >
+								<f:label>
+									<Label text="Description" design="Bold"/>
+								</f:label>
+								<f:fields>
+									<Text id="descriptionText" text="{description}"/>
+								</f:fields>
+							</f:FormElement>
+							<f:FormElement>
+								<f:label>
+									<Label text="Category" design="Bold"/>
+								</f:label>
+								<f:fields>
+									<Text id="categoryText" text="{category_code}"/>
+								</f:fields>
+							</f:FormElement>
+							<f:FormElement>
+								<f:label>
+									<Label text="Priority" design="Bold"/>
+								</f:label>
+								<f:fields>
+									<Text id="priorityText" text="{priority_code}"/>
+								</f:fields>
+							</f:FormElement>
+							<f:FormElement>
+								<f:label>
+									<Label text="Status" design="Bold"/>
+								</f:label>
+								<f:fields>
+									<Text id="incidentStatusText" text="{incidentStatus_code}"/>
+								</f:fields>
+							</f:FormElement>
+							<f:FormElement>
+								<f:fields>
+									<Image src="{path:'incidentPhotos/0/ID',formatter: '.formatter.src'}" width="250px"></Image>
+								</f:fields>
+							</f:FormElement>
+						</f:formElements>
+					</f:FormContainer>
+				</f:formContainers>
+			</f:Form>
+        </semantic:content>
+	</semantic:SemanticPage>
+
+</mvc:View>

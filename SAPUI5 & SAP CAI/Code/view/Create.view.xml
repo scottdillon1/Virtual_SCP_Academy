@@ -1,0 +1,61 @@
+<mvc:View
+		controllerName="ns.IncidentReportP00XXXX.controller.Create"
+		xmlns="sap.m"
+		xmlns:mvc="sap.ui.core.mvc"
+		xmlns:core="sap.ui.core" 
+		xmlns:f="sap.ui.layout.form"
+		xmlns:html="http://www.w3.org/1999/xhtml"
+		xmlns:tnt="sap.tnt">
+
+        <Page showNavButton="true" navButtonPress="onNavButtonPress" title="{i18n>create}">
+	<headerContent>
+		<Button icon="sap-icon://save" tooltip="Save" text="Save" type="Transparent" press="onSave"/>
+	</headerContent>
+
+    	<content>
+			<f:Form editable="true">
+				    <f:layout>
+					<f:ResponsiveGridLayout backgroundDesign="Solid" labelSpanXL="12" labelSpanL="12" labelSpanM="12" labelSpanS="12" adjustLabelSpan="false"
+					    emptySpanXL="0" emptySpanL="0" emptySpanM="0" emptySpanS="0" columnsXL="1" columnsL="1" columnsM="1" singleContainerFullSize="true"/>
+				    </f:layout>
+				    <f:formContainers>
+					<f:FormContainer>
+					    <f:formElements>
+						<f:FormElement label="Title">
+						    <f:fields>
+							<Input id="title" value="{initial>/title}" required="true" liveChange="onInput"/>
+						    </f:fields>
+						</f:FormElement>
+						<f:FormElement label="Description">
+						    <f:fields>
+							<Input id="description" value="{initial>/description}" required="true" liveChange="onInput"/>
+						    </f:fields>
+						</f:FormElement>
+						<f:FormElement label="Category">
+						    <f:fields>
+							<ComboBox id="category" items="{/Category}" change="onSelectionChange" selectedKey="{initial>/category_code}">
+							    <core:Item key="{code}" text="{name}"/>
+							</ComboBox>
+						    </f:fields>
+						</f:FormElement>
+						<f:FormElement label="Priority">
+						    <f:fields>
+							<ComboBox id="priority" items="{/Priority}" change="onSelectionChange" selectedKey="{initial>/priority_code}">
+							    <core:Item key="{code}" text="{name}"/>
+							</ComboBox>
+						    </f:fields>
+						</f:FormElement>
+						<f:FormElement label="Attachment">
+						    <f:fields>
+							<Button icon="sap-icon://camera" press="onTakePicture"></Button>
+							<html:input id="file" type="file" accept="image/*" capture="camera" style="visibility: hidden"/>
+							<Image  width="200px" id="picPreview"></Image>
+						    </f:fields>
+						</f:FormElement>
+					    </f:formElements>
+					</f:FormContainer>
+				    </f:formContainers>
+				</f:Form>
+			</content>
+		</Page>
+	</mvc:View>

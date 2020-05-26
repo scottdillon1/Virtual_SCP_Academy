@@ -1,0 +1,83 @@
+<mvc:View
+	controllerName="ns.IncidentReportP00XXXX.controller.Worklist"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:semantic="sap.f.semantic">
+
+	<semantic:SemanticPage
+		id="page"
+		headerPinnable="false"
+		toggleHeaderOnTitleClick="false">
+
+		<semantic:titleHeading>
+			<Title text="{i18n>worklistTitle}" />
+		</semantic:titleHeading>
+
+		<semantic:content>
+			<Table
+				id="table"
+				width="auto"
+				items="{
+					path: '/SafetyIncidents',
+					parameters: {
+		expand : 'incidentPhotos,category,priority'
+	},
+	sorter: {
+		path: 'createdAt',
+		descending: true
+	}
+				}"
+				noDataText="{worklistView>/tableNoDataText}"
+				growing="true"
+				growingScrollToLoad="true"
+				updateFinished=".onUpdateFinished">
+
+				<headerToolbar>
+					<Toolbar>
+						<Title id="tableHeader" text="{worklistView>/worklistTableTitle}"/>
+						<ToolbarSpacer />
+						<SearchField
+							id="searchField"
+							tooltip="{i18n>worklistSearchTooltip}"
+							search=".onSearch"
+							width="auto">
+						</SearchField>
+					</Toolbar>
+				</headerToolbar>
+
+				<columns>
+					<Column id="imageColumn" width="6rem">
+		<Text text="" id="nameColumnImage" />
+	</Column>
+	<Column id="nameColumn">
+		<Text text="{i18n>tableNameColumnTitle}" id="nameColumnTitle"/>
+	</Column>
+	<Column id="unitNumberColumn" hAlign="End">
+		<Text text="{i18n>tableUnitNumberColumnTitle}" id="unitNumberColumnTitle"/>
+	</Column>
+				</columns>
+
+				<items>
+					<ColumnListItem
+						type="Navigation"
+						press=".onPress">
+						<cells>
+							<Image src="{path:'incidentPhotos/0/ID',formatter: '.formatter.src'}"  width="4rem" decorative="true"/>
+	<ObjectIdentifier 
+		title="{title}"
+		text="{description}"/>
+	<ObjectStatus text="{priority/name}" state="{path:'priority_code',formatter:'.formatter.state'}"/>
+						</cells>
+					</ColumnListItem>
+				</items>
+			</Table>
+		</semantic:content>
+
+		<semantic:sendEmailAction>
+			<semantic:SendEmailAction id="shareEmail" press=".onShareEmailPress"/>
+		</semantic:sendEmailAction>
+
+
+	</semantic:SemanticPage>
+
+</mvc:View>
