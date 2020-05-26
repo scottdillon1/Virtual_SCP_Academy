@@ -3,7 +3,7 @@ In this section, we will create an UI5 application that will be consuming the ba
 
 ## Step 1 - Download required files
 
-Please go to https://sap-my.sharepoint.com/:f:/p/bruno_guerrero/EtDsb7rPTZBMuGBZhjAp5JwBX-MhbaLPyymp6CkS3dGrgA?e=71vns9 , download and save the files in your computer.
+Please go to https://sap-my.sharepoint.com/:f:/p/bruno_guerrero/EgM7sdLHdLVOuHpDK9dcqy8BrY96EgBPeoI1dV1mjix6ZA?e=TGNIdQ, download and save the files in your computer.
 
 ## Step 2 - Access the TA Landing Page
 
