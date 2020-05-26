@@ -277,4 +277,67 @@ You should now see "The IncidentFlows project has been deployed."
 
 The workflow is now pointing to **your** Safety Incident Service.  
 
+## Step 6 - Adjust your IFlow
+
+Last step, you need to adjust your iFlow so that it retrieves the
+information from your own CAP service.
+
+Go back to the Landing Page
+(<https://virtual-scp-roadshow.cfapps.eu10.hana.ondemand.com/>). Logon
+with your P-user if requested.
+
+Open the CPI service.
+
+![](.//Part4Images/image1.png)
+
+Follow the instructions from this SAP Note:
+<https://launchpad.support.sap.com/#/notes/2715005>.
+
+Then, go to the Design page.
+
+![](.//Part4Images/image2.png)
+
+Open your own integration package.
+
+![](.//Part4Images/image3.png)
+
+Open your iFlow.
+
+![](.//Part4Images/image4.png)
+
+Switch to Edit mode
+
+![](.//Part4Images/image5.png)
+
+Select the HTTP arrow. Go to the Connection tab. Replace the Address by
+the one of your own CAP service followed by
+**/incident/SafetyIncidents(\${header.IncidentID})**. And replace the
+Private Key Alias by the one you have just created:
+**CAPservicePXXXXXX\_certif**.
+
+![](.//Part4Images/image6.png)
+
+Also, we need to improve the robustness of the iFlow in case an error
+occurs. To do so, let's add an Exception Subprocess. From the toolbox,
+choose Process and then Exception Subprocess.
+
+![](.//Part4Images/image7.png)
+
+Place it inside of the Integration Process.
+
+![](.//Part4Images/image8.png)
+
+Add a Content Modifier in the Exception Subprocess. Choose
+Transformation and then Content Modifier in the toolbar.
+
+![](.//Part4Images/image9.png)
+
+Place it between Error Start 1 and End 1.
+
+![](.//Part4Images/image10.png)
+
+Save your iFlow and then Deploy it again.
+
+![](.//Part4Images/image11.png)
+
 Congratulations! You have successfully completed this exercise and can use your service to generate **Safety Incidents** 
