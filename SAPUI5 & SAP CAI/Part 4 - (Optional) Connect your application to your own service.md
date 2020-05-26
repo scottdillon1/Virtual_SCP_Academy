@@ -277,4 +277,4 @@ You should now see "The IncidentFlows project has been deployed."
 
 The workflow is now pointing to **your** Safety Incident Service.  
 
-Congratulations! You have successfully completed this exercise and can use your service to egnerate **Safety Incidents** 
+Congratulations! You have successfully completed this exercise and can use your service to generate **Safety Incidents** 
