@@ -328,14 +328,9 @@ Place it inside of the Integration Process.
 
 ![](.//Part4Images/image8.png)
 
-Add a Content Modifier in the Exception Subprocess. Choose
-Transformation and then Content Modifier in the toolbar.
-
-![](.//Part4Images/image9.png)
-
-Place it between Error Start 1 and End 1.
-
-![](.//Part4Images/image10.png)
+In this case, nothing will happen in case of error. But, for sure, you can 
+implement the error handling that you prefer. For instance, you could write 
+the logs in a file.
 
 Save your iFlow and then Deploy it again.
 
