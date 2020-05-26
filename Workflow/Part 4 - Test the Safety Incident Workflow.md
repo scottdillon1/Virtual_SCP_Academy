@@ -78,11 +78,20 @@ Keep this tab open because you will reference it during testing.
 If there is a problem or question speak with an instructor.
 
 **We are currently using a test CDS service deployed by SAP. In a few weeks we you be using your service that was created in week one.** 
-* SAP Test Service : https://incidentsmaster-srv-sleepy-camel.cfapps.eu10.hana.ondemand.com/ 
+
+Note: We have deployed four test services, one for each subaccount (A,B,C,D). 
+
+| Subaccount | Service | 
+| ------------- | ------------- |
+| A | https://incidentsmaster-srv-noisy-bongo.cfapps.eu10.hana.ondemand.com/ |
+| B | https://incidentsmaster-srv-anxious-quokka.cfapps.eu10.hana.ondemand.com/ |
+| C | https://incidentsmaster-srv-patient-lynx.cfapps.eu10.hana.ondemand.com/ |
+| D | https://incidentsmaster-srv-sleepy-camel.cfapps.eu10.hana.ondemand.com/ |
 
 ![MTADownload](Part3Images/testservice.png)
 
-Try the "safetyincidents" resource to find the incident that you created with the test application.
+Try the "safetyincidents" resource to find the incident that you created with the test application. 
+**Make sure you are using the corret service for your subaccount - otherwise you may not find your incidents**
 
 ![MTADownload](Part3Images/foundincident.png)
 
