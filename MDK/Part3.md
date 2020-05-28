@@ -16,7 +16,7 @@ On this next screen, please ensure that your destination name and application id
 
 ![VA Launchpad](images/Deploy3.png).
 
-As the project starts to deploy, you will see infomrational messages start to display in the console.
+As the project starts to deploy, you will see informational messages start to display in the console.
 If all goes goes, you should see something similar to the following;
 
 ![VA Launchpad](images/Deployed.png).
