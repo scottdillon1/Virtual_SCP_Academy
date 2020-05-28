@@ -29,6 +29,7 @@ Once the options panel opens up, you will select 4 options within the Expand gro
 - Priority
 - IncidentStatus
 - IncidentPhotos
+
 Under the orderBy, you will select CreatedAt and click the arrow so that it is ordered in descending order.
 
 ![Main Page](images/queryoptionsdet.png)
