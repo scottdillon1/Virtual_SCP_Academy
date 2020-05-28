@@ -15,7 +15,7 @@ After you validate your CF environment, now we will activate your mobile extensi
 
 ![VA Launchpad](images/mobileext.png)
 
-Within the WebIDE, there are serveral different perspectives and you choose the one depending on the type of development you would like to do. In our case, we will select the MDK perspective as shown in the screenshot, it's the one that looks like a cube wrapped in 2 arrows.
+Within the WebIDE, there are several different perspectives and you choose the one depending on the type of development you would like to do. In our case, we will select the MDK perspective as shown in the screenshot, it's the one that looks like a cube wrapped in 2 arrows.
 
 ![MDK Perspective](images/mdkperspective.png)
 
