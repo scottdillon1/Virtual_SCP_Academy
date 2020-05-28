@@ -54,6 +54,8 @@ We now need to configure the Mobile Connectivity to tell the mobile application 
 
 ### Adding data connections that can be used within the app
 
+From here, the idea is to configure where the application will be able to retrieve it's data from. A core principle of the SCP environment is the use of destinations to retrieve data. We will now configure one for mobile services so that we can retrieve data from the CAP service we deployed in week 1.
+
 The following screen will open and we will click on the icon hightlighted in red to create a new destination for our mobile application.
 
 ![NewDestination](images/mobileconn.png)
