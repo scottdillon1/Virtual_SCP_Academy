@@ -176,7 +176,7 @@ A **skill** is a block of conversation that has a clear purpose and that your bo
  
  ![Open Triggers](Part3Images/20.OpenTriggersTab.png)
  
- 3. Click on the line next to *If* and select *@viewincidents* which is the intent that will trigger this skill, then click *SAVE*.
+ 3. Click on the line next to *If* and select **@viewincidents** which is the intent that will trigger this skill and select **is-present**, then click *SAVE*.
  
  ![Select Trigger](Part3Images/21.SelectViewindicentsIf.png)
  
