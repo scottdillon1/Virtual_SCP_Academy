@@ -8,6 +8,7 @@ In this section, we will be setting up our backend services required to store th
 **Open a New Browser Window and use one of the following Links**
 
 *Canadian Virtual Academy*
+
 https://virtual-scp-roadshow.cfapps.eu10.hana.ondemand.com
 
 *LATAM Virtual Academy*
