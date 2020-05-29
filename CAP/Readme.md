@@ -8,6 +8,7 @@ In this section, we will be setting up our backend services required to store th
 **Open a New Browser Window and use one of the following Links**
 
 **VERY IMPORTANT...WHEN ACCESSING THESE LINKS, YOU MUST BE PROMPTED FOR A LOGIN****
+
 We have seen many cases where attendees already have a userid for SCP and you will bypass the logon screen. You might think this is great but it's not :-) You will not get an appropriate setup if you bypass the logon part of the process. So, if you browser defaults to using SSO you will need to take the necessary action to get a logon prompt which could be 1 of several things: Use Firefox..there is a setting in firefox that allows you to setup a prompt for login each time no matter how many certificiates you have installed. However, Firefox does not work for all exercises :-( The best option is to clear your browser of all certificates, clear your cache and then use the links below which should then prompt for a LOGON. Some folks had good success with the installation of the "Brave" browser.
 
 *Canadian Virtual Academy*
