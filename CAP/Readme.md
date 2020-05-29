@@ -5,10 +5,20 @@ In this section, we will be setting up our backend services required to store th
 
 (*****At this point, you should have a dedicated user for the next 5 weeks****)
 
-**Open a New Browser Window and use the following Link**
+**Open a New Browser Window and use one of the following Links**
 
+*Canadian Virtual Academy*
 https://virtual-scp-roadshow.cfapps.eu10.hana.ondemand.com
 
+*LATAM Virtual Academy*
+If Your userid is between P005557 - P005587
+https://xa-EA0554.cfapps.eu10.hana.ondemand.com
+
+If your userid is between P005588 - P005618
+https://xa-EA0558.cfapps.eu10.hana.ondemand.com
+
+If your userid is between P005650 - P005680
+https://xa-EA0558.cfapps.eu10.hana.ondemand.com
 
 For this scenario, we will be using the new Business Application Studio so click on the "Let's Go" within the BAS Tile
 
