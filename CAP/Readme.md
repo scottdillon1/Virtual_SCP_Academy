@@ -11,6 +11,7 @@ In this section, we will be setting up our backend services required to store th
 https://virtual-scp-roadshow.cfapps.eu10.hana.ondemand.com
 
 *LATAM Virtual Academy*
+
 If Your userid is between P005557 - P005587
 https://xa-EA0554.cfapps.eu10.hana.ondemand.com
 
