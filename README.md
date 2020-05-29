@@ -2,7 +2,7 @@
 
 Over the course 5 weeks, particpants will be implementing a Safety Incident Application based on an an event driven architecture. The core components of this architcture will be the following services:
 
-** Note to participants...the order in which you do the exercises matters, so follow the order as listed below **
+**Note to participants...the order in which you do the exercises matters, so follow the order as listed below **
 
 1. SAP CLoud Platform Application Programming Model or CAP for short (based on Node JS)
 2. Workflow
