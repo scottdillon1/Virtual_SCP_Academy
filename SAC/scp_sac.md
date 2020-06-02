@@ -170,17 +170,6 @@ From the builder pane, under **Meausures**, you will now select **Add Measure** 
 
 ![](.//media/createcalcbuilder.png)
 
-![](.//media/image97.png)
-
-
-
-![](.//media/image96.png)
-
-
-From the builder pane as shown above, click "Create Measure"Select the "+ create calculation" option under calculations
-
-![](.//media/image29.png)
-
 iv. In the editor dialogue select "Calculated Measure" and create a
     formula of Days Between/ Number of Incidents. As you type, SAC will
     propose options to you. Name the measure "Average Days Between".  
