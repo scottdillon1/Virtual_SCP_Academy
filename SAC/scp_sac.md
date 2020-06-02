@@ -160,13 +160,18 @@ Once the Smart Insights has been applied, you can then change the title by simpl
 
 ![](.//media/image28.png)
 
+Now let's calculate the average time it takes to engage our support team and display this as it relates to each category of incident. 
+In order to do this we will be changing our chart type and adding some additional calculations.
+
+To start, open the builder pane. Make sure the chart is selected and select Designer in the top right hand side.              
+![](.//media/builderpane.png)
+
+From the builder pane, 
+Select the "+ create calculation" option under calculations
+
 ![](.//media/image97.png)
 
 
-iii. Let's calculate Average time it takes to engage our support team.
-     In the builder pane, go to the measures section. Select Create
-     Calculation.  To get the builder pane, make sure the chart is selected and select Desigern in the top right hand side.              
-     See the greyed area "Designer".  
 
 ![](.//media/image96.png)
 
