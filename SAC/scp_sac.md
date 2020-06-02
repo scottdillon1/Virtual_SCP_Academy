@@ -152,15 +152,13 @@ d)  From here, under **Measures**, select *Number of Incidents* (measure value) 
 ### How to add Smart Insights with the click of a mouse
 i.  You are now on the Responsive Page (designed for mobile view).
         Enhance your chart by adding Smart Insights. 
-        In order to do this, you must first make the chart active by clicking on it which should reveal three dots next to the side of the chart. Click on these to reveal the Smart Insights option.
+        In order to do this, you must first make the chart active by clicking on it which should reveal three dots next to the side of the chart. Click on these to reveal the Smart Insights option and select it.
 
 ![](.//media/image27.png)
 
-It should look like this:
+Once the Smart Insights has been applied, you can then change the title by simply clicking on it and modifiying it to "Number of Incidents by Category".
 
 ![](.//media/image28.png)
-
-ii. Change the title to Number of Incidents by Category.  The easiest way to do this is select the header of the chart and type.
 
 ![](.//media/image97.png)
 
