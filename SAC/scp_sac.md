@@ -73,11 +73,11 @@ k.  Let's transform the CreatedAt column so it looks like a date. Select
 ![](.//media/image13.png)
 
 l.  Change the transform syntax to "Extract everything before last T
-    from createdAt\_2".
+    from createdAt". Here you can see the syntax you need to use for the transform of the CreatedAt Column.
 
 ![](.//media/image14.png)
 
-m.  Here's the correct syntax
+m.  Here's the correct syntax for the transform of the modifiedAt Column.
 
 ![](.//media/image15.png)
 
