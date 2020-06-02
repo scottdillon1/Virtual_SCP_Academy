@@ -166,8 +166,9 @@ In order to do this we will be changing our chart type and adding some additiona
 To start, open the builder pane. Make sure the chart is selected and select Designer in the top right hand side.              
 ![](.//media/builderpane.png)
 
-From the builder pane, 
-Select the "+ create calculation" option under calculations
+From the builder pane, under **Meausures**, you will now select **Add Measure** and this will reveal the "Create Calculation" option that we will select. 
+
+![](.//media/createcalcbuilder.png)
 
 ![](.//media/image97.png)
 
@@ -176,7 +177,7 @@ Select the "+ create calculation" option under calculations
 ![](.//media/image96.png)
 
 
-Select the "+ create calculation" option under calculations
+From the builder pane as shown above, click "Create Measure"Select the "+ create calculation" option under calculations
 
 ![](.//media/image29.png)
 
