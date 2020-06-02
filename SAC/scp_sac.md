@@ -176,8 +176,7 @@ iv. In the editor dialogue select "Calculated Measure" and create a
 
 ![](.//media/image30.png)
 
-v.  Change the chart to a Combination Column and Line chart. Move the
-    Average Days Between to the Line section.
+v.  Change the chart to a Combination Column and Line chart. You will see you have 2 values under the Columns Axis. Drage the "Average Days Between" down under the "Line Axis" so that your chart matches the screenshot below.
 
 ![](.//media/image31.png)
 
