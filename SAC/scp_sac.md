@@ -135,7 +135,7 @@ Files". This will be the model you will be created.
 
 c)  Add dimensions to increase your search capability (do this by clicking the plus sign):
 
-![](.//media/image25.png)
+![](.//media/image25a.png)
 
 you should see all the dimensions now
 
