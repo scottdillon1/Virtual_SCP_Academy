@@ -137,7 +137,7 @@ c)  Add dimensions to increase your search capability (do this by clicking the p
 
 ![](.//media/image25a.png)
 
-you should see all the dimensions now
+**Once you select "Show All", you will see all the dimensions**
 
 ![](.//media/image98.png)
 
