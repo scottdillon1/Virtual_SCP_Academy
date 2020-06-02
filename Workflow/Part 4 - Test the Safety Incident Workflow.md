@@ -6,10 +6,7 @@ In this section you will:
   
 ## Test the Safety Incident Workflow 
 
-We have created an application to help test your workflow. Access the following link on your phone, ipad or laptop 
-* Right click the link and "Open Link in New Tab" : [landingpage](https://virtual-scp-roadshow.cfapps.eu10.hana.ondemand.com/)
-
-![MTADownload](Part3Images/landingpagetestappp.png)
+We have created an application to help test your workflow. From your landing page as indicated in the previous 2 exercises, 
 
 * In the "Platform User" tile, click on **"Incidents"** to open your test application.
 
@@ -88,6 +85,13 @@ Note: We have deployed four test services, one for each subaccount (A,B,C,D).
 | C | https://incidentsmaster-srv-patient-lynx.cfapps.eu10.hana.ondemand.com/ |
 | D | https://incidentsmaster-srv-sleepy-camel.cfapps.eu10.hana.ondemand.com/ |
 
+*LATAM*
+| Subaccount | Service | 
+| ------------- | ------------- |
+| A | https://incidentsmaster-srv-optimistic-leopard.cfapps.eu10.hana.ondemand.com/ |
+| B | https://incidentsmaster-srv-generous-swan.cfapps.eu10.hana.ondemand.com/ |
+| C | https://incidentsmaster-srv-turbulent-otter.cfapps.eu10.hana.ondemand.com/ |
+
 ![MTADownload](Part3Images/testservice.png)
 
 Try the "safetyincidents" resource to find the incident that you created with the test application. 
@@ -97,11 +101,23 @@ Try the "safetyincidents" resource to find the incident that you created with th
 
 ### Test the workflow
 
-Now we are ready to test the workflow. At the end of week three this will all be automated. 
+Now we are ready to test the workflow. 
 
-In step two you had bookmarked the portal instance that was deployed. If you do not remember the endpoint then check the console in the WebIDE or redeploy the workflow setup package. I have added the screenshot from the console where the endpoint was displayed in step two of this exercise.
 
-![MTADownload](Part2Images/deploysuccess.png)
+As per the previous exercise, the Fiori Launchpad has already been deployed and can be found below:
+
+Group A
+
+https://se-technical-academy-xaea0554-cf-eu10-dev-master-va-wf-flp-main.cfapps.eu10.hana.ondemand.com
+
+Group B
+
+https://se-technical-academy-xaea0556-cf-eu10-dev-master-va-wf-flp-main.cfapps.eu10.hana.ondemand.com
+
+Group C
+
+https://se-technical-academy-xaea0558-cf-eu10-dev-master-va-wf-flp-main.cfapps.eu10.hana.ondemand.com
+
 
 The portal should look like this
 

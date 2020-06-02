@@ -256,6 +256,7 @@ The workflow will be triggered via api. Triggering the workflow via api will onl
 
 When a Safety Incident is logged, the CDS service will generate a unique ID. This ID will be passed to the workflow. If the workflow requires additional data, it will call the CDS service that was created in week on.
 
+*Canada/US Only*
 Note: We have deployed four test services, one for each subaccount (A,B,C,D). 
 
 | Subaccount | Service | 
@@ -264,6 +265,13 @@ Note: We have deployed four test services, one for each subaccount (A,B,C,D).
 | B | https://incidentsmaster-srv-anxious-quokka.cfapps.eu10.hana.ondemand.com/ |
 | C | https://incidentsmaster-srv-patient-lynx.cfapps.eu10.hana.ondemand.com/ |
 | D | https://incidentsmaster-srv-sleepy-camel.cfapps.eu10.hana.ondemand.com/ |
+
+*LATAM*
+| Subaccount | Service | 
+| ------------- | ------------- |
+| A | https://incidentsmaster-srv-optimistic-leopard.cfapps.eu10.hana.ondemand.com/ |
+| B | https://incidentsmaster-srv-generous-swan.cfapps.eu10.hana.ondemand.com/ |
+| C | https://incidentsmaster-srv-turbulent-otter.cfapps.eu10.hana.ondemand.com/ |
 
   * You will see this in detail in part 4 when you test the workflow.
 
@@ -294,11 +302,11 @@ If you double click on the file sample.json you will only see the incidentID. As
 
 #### Retrieve Incident Details - Service Task
 
-When you click on the "Retrieve Incident Details" Service Task, you will see the properties on the right-hand side. click on the details tab. Here is where you will see the destination "incidentservice" is used.
+When you click on the "Retrieve Incident Details" Service Task, you will see the properties on the right-hand side. click on the details tab. Here is where you will see the destination "Incidents_CF" is used.
 
 ![MTADownload](Part3Images/retrieveincidentdetails.png)
 
-Note: The current destinations in the workflow are set to **serviceinstance** which is pointing to a test service created by SAP for this course. In a future step you will change this destination to the service that you created in the first week of this course.
+Note: The current destinations in the workflow are set to **Incidents_CF** which is pointing to a test service created by SAP for this course. In a future step you will change this destination to the service that you created in the first week of this course.
 
 ```
 The destination incidentservice has already been created by the SAP team for you. 
