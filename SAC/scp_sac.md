@@ -144,7 +144,9 @@ c)  Add dimensions to increase your search capability (do this by clicking the p
 d)  From here, under **Measures**, select *Number of Incidents* (measure value) and select the Category Code (header).
     
    Once the measure and Category code is selected, you should see a chart appear that reflects this data.
+   
    We will now add this chart to a responsive page.
+   
    From the far right of the chart, Select Copy to New Responsive Page
    ![](.//media/image26.png)
 
