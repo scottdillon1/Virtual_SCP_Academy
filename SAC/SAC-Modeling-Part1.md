@@ -4,8 +4,7 @@
 Direct your Chrome browser to the following URL:
         <https://experienceacademy.us10.hanacloudservices.cloud.sap/sap/fpa/ui/app.html#;view_id=home>        
 
-From the home icon (oddly shaped like a hamburger), Select
-        Create > Model.
+From the home icon (oddly shaped like a hamburger), Select **Create > Model**
 
 ![](.//media/image1.png)
 
@@ -14,7 +13,7 @@ From the home icon (oddly shaped like a hamburger), Select
 
 ![](.//media/image2.png)
 
-### Select "oData Services" from the right-hand side of the page. Please note all the connection types.
+:point_right: **Select "oData Services" from the right-hand side of the page. Please note all the connection types.**
 
 ![](.//media/image3.png)
 
