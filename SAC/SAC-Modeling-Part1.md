@@ -101,7 +101,8 @@ Here you can see the syntax you need to use for the transform of the CreatedAt C
     in step l.**
 
 :point_right:**Let's create a "Days Between" column which measures how quickly our
-    support staff react to ticket. Select the fx icon again.**
+    support staff react to ticket.**
+- Select the fx icon again.**
 
 ![](.//media/image17.png)
 
@@ -110,8 +111,7 @@ DATEDIFF function. Select it'.
 
 ![](.//media/image18.png)
 
-The formula should look like this. **DATEDIFF(\[modifiedAt\_2\] ,
-\[createdAt\_2\],\"day\")**
+The formula should look like this. **DATEDIFF(\[modifiedAt\_2\] ,\[createdAt\_2\],\"day\")**
 
 If you run into troubles on this step, clear any formulas and just
 paste in the following **DATEDIFF(\[modifiedAt\_2\] ,
