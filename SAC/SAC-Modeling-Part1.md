@@ -8,6 +8,7 @@ From the home icon (oddly shaped like a hamburger), Select **Create > Model**
 
 ![](.//media/image1.png)
 
+## Create a connection to the data
 :point_right: **Select "Get data from a datasource"**
 
 
@@ -21,7 +22,7 @@ From the home icon (oddly shaped like a hamburger), Select **Create > Model**
 
 ![](.//media/image4.png)
 
-:point_right: **Select the copy a query option and then next**
+:point_right: **Select the create a new query option and then next**
 
 ![](.//media/image99.png)
 
@@ -44,7 +45,7 @@ From the home icon (oddly shaped like a hamburger), Select **Create > Model**
 :point_right:**You now see the raw data model.**
 
 However, there are no measures and no date objects identified so we need to fix this which is part of our data cleanup activies here in the modeling section.
-
+## Add a measure
 ![](.//media/image8.png)
 
 :point_right: Let's add a measure. 
@@ -72,7 +73,7 @@ Press the *Fx* Icon
 > should be green
 >
 > ![](.//media/image11.png)
-
+## Transform 2 columns
 :point_right:**Let's transform the CreatedAt column so it looks like a date. Select
     the column header and select "Create a Transform"**
 
