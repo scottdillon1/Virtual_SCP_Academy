@@ -9,11 +9,11 @@ From the home icon (oddly shaped like a hamburger), Select
 
 ![](.//media/image1.png)
 
-:point_right: Select "Get data from a datasource"
+:point_right: **Select "Get data from a datasource"**
 
 ![](.//media/image2.png)
 
-:point_right: Select "oData Services" from the right-hand side of the page. Please note all the connection types.
+:point_right: ###Select "oData Services" from the right-hand side of the page. Please note all the connection types.
 
 ![](.//media/image3.png)
 
