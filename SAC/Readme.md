@@ -29,4 +29,4 @@ SAP Analytics Cloud's business intelligence function has two main components:
 
 In the first section, you will be creating the model for our data and in the second section you will be building a story to visualize the data.
 
-[Next](scp_sac.md)
+[Next](SAC-Modeling-Part1.md)
