@@ -4,16 +4,16 @@ From the home menu (hamburger icon), select Create > Story.
 
 ![](.//media/image21.png)
 
-:point_right:**Select Access and Explore Data
+:point_right:**Select Access and Explore Data**
 
 ![](.//media/image22.png)
 
-b)  Select Data Acquired from an Existing Model
+:point_right:**Select Data Acquired from an Existing Model**
 
  ![](.//media/image23.png)
 
-Browse to the data model that you created. This will be in "your
-Files". This will be the model you will be created.
+:point_right:**Browse to the data model that you created. This will be in "your
+Files". This will be the model you will be created.**
 
 ![](.//media/image24.png)
 
