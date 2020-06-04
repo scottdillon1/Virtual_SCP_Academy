@@ -52,12 +52,13 @@ However, there are no measures and no date objects identified so we need to fix 
 - Create a calculated column. 
 - Add a counter object.**
 
-Step 1
+**Step 1**
 
 ![](.//media/image9.png)
 
-Step 2, call the new field "Number of Incidents", simply add the value
-1 to the Edit Formula section.
+**Step 2**
+Call the new field *Number of Incidents*
+Simply add the value 1 to the Edit Formula section.
 
 ![](.//media/image10.png)
 
