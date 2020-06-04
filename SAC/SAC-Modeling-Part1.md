@@ -59,9 +59,9 @@ Press the *Fx* Icon
 
 **Step 2**
 
-Call the new field *Number of Incidents*
+- Call the new field *Number of Incidents*
 
-Simply add the value 1 to the Edit Formula section.
+- Simply add the value 1 to the Edit Formula section.
 
 ![](.//media/image10.png)
 
