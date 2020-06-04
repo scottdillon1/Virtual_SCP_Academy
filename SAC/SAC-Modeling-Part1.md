@@ -42,12 +42,12 @@ From the home icon (oddly shaped like a hamburger), Select **Create > Model**
 
 ![](.//media/image5.png)
 
-i.  You now see the raw data model. 11 columns, but no measures. We also
-    have no date objects
+:point_right:**You now see the raw data model. 11 columns, but no measures. We also have no date objects
+
     ![](.//media/image8.png)
 
-j.  Let's add a measure. Select the fx command button and create a
-    calculated column. Then add a counter object.
+:point_right:**Let's add a measure. Select the fx command button and create a
+    calculated column. Then add a counter object.**
 
 Step 1
 
