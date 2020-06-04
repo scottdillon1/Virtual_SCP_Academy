@@ -9,7 +9,7 @@ From the home icon (oddly shaped like a hamburger), Select
 
 ![](.//media/image1.png)
 
-Select "Get data from a datasource"
+:point_right: Select "Get data from a datasource"
 
 ![](.//media/image2.png)
 
@@ -18,10 +18,10 @@ Select "oData Services" from the right-hand side of the page. Please
 
 ![](.//media/image3.png)
 
-From the drop down select "SCP Tech Academy Acquired Data".
+:point_right: From the drop down select "SCP Tech Academy Acquired Data".
 ![](.//media/image4.png)
 
-Select the copy a query option and then next
+:point_right: Select the copy a query option and then next
 
 ![](.//media/image99.png)
 
