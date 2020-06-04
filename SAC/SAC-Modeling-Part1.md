@@ -53,10 +53,11 @@ However, there are no measures and no date objects identified so we need to fix 
 - Add a counter object.**
 
 **Step 1**
-
+Press the *Fx* Icon
 ![](.//media/image9.png)
 
 **Step 2**
+
 Call the new field *Number of Incidents*
 Simply add the value 1 to the Edit Formula section.
 
