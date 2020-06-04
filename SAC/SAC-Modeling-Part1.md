@@ -1,23 +1,24 @@
 #  1. Building a Data Model
 
-a.  Direct your Chrome browser to the following URL:
+## Login into the SAC environment
+Direct your Chrome browser to the following URL:
         <https://experienceacademy.us10.hanacloudservices.cloud.sap/sap/fpa/ui/app.html#;view_id=home>        
 
-b.  From the home icon (oddly shaped like a hamburger), Select
+From the home icon (oddly shaped like a hamburger), Select
         Create > Model.
 
 ![](.//media/image1.png)
 
-c.  Select "Get data from a datasource"
+Select "Get data from a datasource"
 
 ![](.//media/image2.png)
 
-d.  Select "oData Services" from the right-hand side of the page. Please
+Select "oData Services" from the right-hand side of the page. Please
     note all the connection types.
 
 ![](.//media/image3.png)
 
-e.  From the drop down select "SCP Tech Academy Acquired Data".
+From the drop down select "SCP Tech Academy Acquired Data".
 ![](.//media/image4.png)
 
 Select the copy a query option and then next
