@@ -42,12 +42,15 @@ From the home icon (oddly shaped like a hamburger), Select **Create > Model**
 ![](.//media/image5.png)
 
 :point_right:**You now see the raw data model.**
+
 However, there are no measures and no date objects identified so we need to fix this which is part of our data cleanup activies here in the modeling section.
 
 ![](.//media/image8.png)
 
-:point_right:**Let's add a measure. Select the fx command button and create a
-    calculated column. Then add a counter object.**
+:point_right: Let's add a measure. 
+- Select the fx command button
+- Create a calculated column. 
+- Add a counter object.**
 
 Step 1
 
