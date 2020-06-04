@@ -124,4 +124,6 @@ paste in the following **DATEDIFF(\[modifiedAt\_2\] ,
 
 ![](.//media/image20.png)
 
-:point_right:**Name the data set **SCPTA**
+:point_right:Give the data set **SCPTA**
+
+The modeling portion is now complete, we can move onto the visualization section.
