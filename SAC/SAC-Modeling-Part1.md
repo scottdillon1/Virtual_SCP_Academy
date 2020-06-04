@@ -27,19 +27,18 @@ From the home icon (oddly shaped like a hamburger), Select **Create > Model**
 
 
 
-Select Safety Incidents. Drag across all the objects in the query
-    panel. Select Next.
+:point_right: **Select Safety Incidents. Drag across all the objects in the query
+    panel. Select Next.**
 
 ![](.//media/image6.png)
 
 
-g.  Drag your objects across.  Select Create
+:point_right:**Drag your objects across.  Select Create**
 
 ![](.//media/image7.png)
 
 
-h.  You will now see a preview option for your model. Select the model
-    "SafetyIncidentsQuery".
+:point_right:**You will now see a preview option for your model. Select the model "SafetyIncidentsQuery"**
 
 ![](.//media/image5.png)
 
@@ -66,8 +65,8 @@ Step 2, call the new field "Number of Incidents", simply add the value
 >
 > ![](.//media/image11.png)
 
-k.  Let's transform the CreatedAt column so it looks like a date. Select
-    the column header and select "Create a Transform"
+:point_right:**Let's transform the CreatedAt column so it looks like a date. Select
+    the column header and select "Create a Transform"**
 
 ![](.//media/image12.png)
 
@@ -78,20 +77,21 @@ l.  Change the transform syntax to "Extract everything before last T
 
 ![](.//media/image14.png)
 
-m.  Here's the correct syntax for the transform of the modifiedAt Column.
+:point_right:**Here's the correct syntax for the transform of the modifiedAt Column**
 
 ![](.//media/image15.png)
 
-n.  Change the data type of the new Column to a Date. You may need to
-    select the date format to YYYY-MM-DD from the drop down.
+:point_right:**Change the data type of the new Column to a Date. You may need to
+    select the date format to YYYY-MM-DD from the drop down.**
+    
     ![](.//media/image16.png)
 
-o.  Repeat this process for the ModifiedAt Column. Be sure to that's
+:point_right: **Repeat this process for the ModifiedAt Column. Be sure to that's
     data type is Date and in the format of YYYY-MM-DD just like we did
-    in step l.
+    in step l.**
 
-p.  Let's create a "Days Between" column which measures how quickly our
-    support staff react to ticket. Select the fx icon again.
+:point_right:**Let's create a "Days Between" column which measures how quickly our
+    support staff react to ticket. Select the fx icon again.**
 
 ![](.//media/image17.png)
 
@@ -109,9 +109,9 @@ paste in the following **DATEDIFF(\[modifiedAt\_2\] ,
 
 ![](.//media/image19.png)
 
-q.  If you have no data errors, select Create Model on the right-hand
-    side of the screen.
+:point_right:**If you have no data errors, select Create Model on the right-hand
+    side of the screen.**
 
 ![](.//media/image20.png)
 
-r.  Name the data set **SCPTA**
+:point_right:**Name the data set **SCPTA**
