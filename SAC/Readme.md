@@ -1,4 +1,6 @@
-We have now reached the last week of the Virtual SAP Cloud Platform Technical Academy!
+# Week5 - SAP Analytics Cloud
+
+Congratulations, you have made it to week 5 of the Virtual SAP Cloud Platform Technical Academy!
 
 For this last week, you are going to add some analytics on top of all what you have built so far. 
 You will create visualizations in SAP Analytics Cloud (SAC).
