@@ -9,8 +9,8 @@ From the home icon (oddly shaped like a hamburger), Select
 
 ![](.//media/image1.png)
 
-## Select "Get data from a datasource"
-***
+:point_right: **Select "Get data from a datasource" **
+
 
 ![](.//media/image2.png)
 
