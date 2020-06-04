@@ -94,7 +94,7 @@ Here you can see the syntax you need to use for the transform of the CreatedAt C
 :point_right:**Change the data type of the new Column to a Date. You may need to
     select the date format to YYYY-MM-DD from the drop down.**
     
-    ![](.//media/image16.png)
+![](.//media/image16.png)
 
 :point_right: **Repeat this process for the ModifiedAt Column. Be sure to that's
     data type is Date and in the format of YYYY-MM-DD just like we did
