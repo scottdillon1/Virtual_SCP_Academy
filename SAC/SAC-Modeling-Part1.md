@@ -1,4 +1,4 @@
-#  1. Logging-In and Building your Data Model
+#  1. Building a Data Model
 
 a.  Direct your Chrome browser to the following URL:
         <https://experienceacademy.us10.hanacloudservices.cloud.sap/sap/fpa/ui/app.html#;view_id=home>        
