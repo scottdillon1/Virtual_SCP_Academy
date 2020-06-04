@@ -34,7 +34,7 @@ Files". This will be the model you will be created.**
    From the far right of the chart, Select Copy to New Responsive Page
    ![](.//media/image26.png)
 ### How to add Smart Insights with the click of a mouse
-i.  You are now on the Responsive Page (designed for mobile view).
+:point_right:  You are now on the Responsive Page (designed for mobile view).
         Enhance your chart by adding Smart Insights. 
         In order to do this, you must first make the chart active by clicking on it which should reveal three dots next to the side of the chart. Click on these to reveal the Smart Insights option and select it.
 
