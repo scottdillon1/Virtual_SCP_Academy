@@ -54,13 +54,12 @@ From the builder pane, under **Meausures**, you will now select **Add Measure** 
 
 ![](.//media/createcalcbuilder.png)
 
-iv. In the editor dialogue select "Calculated Measure" and create a
-    formula of Days Between/ Number of Incidents. As you type, SAC will
+In the editor dialogue select "Calculated Measure" and create a formula of Days Between/ Number of Incidents. As you type, SAC will
     propose options to you. Name the measure "Average Days Between".  
 
 ![](.//media/image30.png)
 
-v.  Change the chart to a Combination Column and Line chart. You will see you have 2 values under the Columns Axis. Drage the "Average Days Between" down under the "Line Axis" so that your chart matches the screenshot below.
+Change the chart to a Combination Column and Line chart. You will see you have 2 values under the Columns Axis. Drage the "Average Days Between" down under the "Line Axis" so that your chart matches the screenshot below.
 
 ![](.//media/image31.png)
 
@@ -86,9 +85,9 @@ Your storyboard looks like this now:
 
 ![](.//media/image36.png)
 
-:point_right:  Step 1: Duplicate the numeric point chart showing "Average
-        Number of Days". In the new numeric point chart, replace Average
-        Number of Days and insert Total Incidents.
+:point_right:  **Step 1: Duplicate the numeric point chart showing "Average
+        Number of Days".**
+- In the new numeric point chart, replace Average Number of Days and insert Total Incidents.
 
 ![](.//media/image37.png)
 
@@ -96,13 +95,13 @@ It should look like this:
 
 ![](.//media/image38.png)
 
-ii. Step 2: In the Builder pane, put a filter on Priority Code. Select
-    Values "High" and "Critical".
+:point_right: **Step 2: In the Builder pane, put a filter on Priority Code.**
+- Select Values "High" and "Critical".
 
 ![](.//media/image39.png)![](.//media/image40.png)
 
-iii. Step 3: Put on the Explorer option. This is also in the Builder
-     pane, Properties section.
+:point_right: **Step 3: Put on the Explorer option.**
+- This is also in the Builder pane, Properties section.
 
 ![](.//media/image41.png)
 
@@ -119,10 +118,9 @@ Let's move back to your storyboard. by selectig the Exit Explorer Mode command b
 
 ![](.//media/image95.png)
 
-h)  Add an RSS feed, so your dashboard users can stay up to date on this
-    important topic.
-
-    i.  Select RSS Feed from menu
+:point_right: **Add an RSS feed, so your dashboard users can stay up to date on this
+    important topic.**
+- Select RSS Feed from menu
 
 ![](.//media/image44.png)
 
@@ -134,14 +132,13 @@ Copy and paste this URL into the Builder Pane. Enter in a title
 "Health and Safety News".  The title is right above the URL screen
 <https://www.safetyandhealthmagazine.com/rss/topic/99-news>
 
-ii. Add a title to the very top.
+- Add a title to the very top.
 
-iii. Move this to the left-hand side of your screen. Your page should
-     look like this:
+- Move this to the left-hand side of your screen. Your page should look like this:
 
 ![](.//media/image46.png)
 
-i)  Final Step: Run a Smart Discovery.
+-  Final Step: Run a Smart Discovery.
 
 ![](.//media/image94.png)
 
