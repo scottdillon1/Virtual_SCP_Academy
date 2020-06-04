@@ -44,7 +44,7 @@ From the home icon (oddly shaped like a hamburger), Select **Create > Model**
 
 :point_right:**You now see the raw data model. 11 columns, but no measures. We also have no date objects
 
-    ![](.//media/image8.png)
+![](.//media/image8.png)
 
 :point_right:**Let's add a measure. Select the fx command button and create a
     calculated column. Then add a counter object.**
