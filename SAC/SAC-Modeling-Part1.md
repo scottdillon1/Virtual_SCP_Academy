@@ -41,7 +41,8 @@ From the home icon (oddly shaped like a hamburger), Select **Create > Model**
 
 ![](.//media/image5.png)
 
-:point_right:**You now see the raw data model. 11 columns, but no measures. We also have no date objects
+:point_right:**You now see the raw data model.**
+However, there are no measures and no date objects identified so we need to fix this which is part of our data cleanup activies here in the modeling section.
 
 ![](.//media/image8.png)
 
