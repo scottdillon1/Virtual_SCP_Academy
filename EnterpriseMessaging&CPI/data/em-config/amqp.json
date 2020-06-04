@@ -1,0 +1,7 @@
+{
+	"incoming": {
+		"incomingincident": {
+			"sourceAddress": "queue:com/sap/SCPGarage/SAFETYINCIDENTS"
+		}
+	}
+}
