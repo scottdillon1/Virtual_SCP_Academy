@@ -66,7 +66,8 @@ Simply add the value 1 to the Edit Formula section.
 ![](.//media/image10.png)
 
 > Notes: after you create this column, you should see it at the very end
-> of a data set. It should be the measure (a column we can perform
+> of the data set. Use the scroll bar to scroll all the way to right. 
+> It should be a measure (a column we can perform
 > mathematical functions on). You will also notice the data quality
 > should be green
 >
