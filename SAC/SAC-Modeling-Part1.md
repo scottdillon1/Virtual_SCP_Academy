@@ -17,7 +17,7 @@ From the home icon (oddly shaped like a hamburger), Select
 
 ![](.//media/image3.png)
 
-:point_right: From the drop down select "SCP Tech Academy Acquired Data".
+:point_right: **From the drop down select "SCP Tech Academy Acquired Data".**
 ![](.//media/image4.png)
 
 :point_right: Select the copy a query option and then next
