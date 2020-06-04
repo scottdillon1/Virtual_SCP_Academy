@@ -7,7 +7,7 @@ From the home menu (hamburger icon), select Create > Story.
 :point_right:**Select Access and Explore Data**
 
 ![](.//media/image22.png)
-
+## Specify the source of your data for the story
 :point_right:**Select Data Acquired from an Existing Model**
 
  ![](.//media/image23.png)
