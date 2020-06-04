@@ -24,9 +24,7 @@ From the home icon (oddly shaped like a hamburger), Select **Create > Model**
 :point_right: **Select the copy a query option and then next**
 
 ![](.//media/image99.png)
-
-
-
+<br>
 :point_right: **Select Safety Incidents. Drag across all the objects in the query
     panel. Select Next.**
 
