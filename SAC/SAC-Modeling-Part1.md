@@ -13,8 +13,7 @@ From the home icon (oddly shaped like a hamburger), Select
 
 ![](.//media/image2.png)
 
-Select "oData Services" from the right-hand side of the page. Please
-    note all the connection types.
+:point_right: Select "oData Services" from the right-hand side of the page. Please note all the connection types.
 
 ![](.//media/image3.png)
 
@@ -27,7 +26,7 @@ Select "oData Services" from the right-hand side of the page. Please
 
 
 
-f.  Select Safety Incidents. Drag across all the objects in the query
+Select Safety Incidents. Drag across all the objects in the query
     panel. Select Next.
 
 ![](.//media/image6.png)
