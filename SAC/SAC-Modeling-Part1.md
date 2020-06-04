@@ -82,7 +82,8 @@ Simply add the value 1 to the Edit Formula section.
 
 :point_right:**Change the transform syntax to "Extract everything before last T from createdAt".**
 
-Here you can see the syntax you need to use for the transform of the CreatedAt Column. *the createdAt_2 Column shown in the diagram is the newly created automatically generated column*
+Here you can see the syntax you need to use for the transform of the CreatedAt Column. 
+*The createdAt_2 Column shown in the diagram is the newly created automatically generated column that is the result of your transform*
 
 ![](.//media/image14.png)
 
