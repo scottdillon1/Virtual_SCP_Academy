@@ -54,6 +54,7 @@ However, there are no measures and no date objects identified so we need to fix 
 
 **Step 1**
 Press the *Fx* Icon
+
 ![](.//media/image9.png)
 
 **Step 2**
