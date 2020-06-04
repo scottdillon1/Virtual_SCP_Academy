@@ -48,10 +48,14 @@ Once the Smart Insights has been applied, you can then change the title by simpl
 Now let's calculate the average time it takes to engage our support team and display this as it relates to each category of incident. 
 In order to do this we will be changing our chart type and adding some additional calculations.
 
-To start, open the builder pane. Make sure the chart is selected and select Designer in the top right hand side.              
+To start, open the builder pane. 
+- Make sure the chart is selected 
+- Select Designer in the top right hand side. 
+
 ![](.//media/builderpane.png)
 
-From the builder pane, under **Meausures**, you will now select **Add Measure** and this will reveal the "Create Calculation" option that we will select. 
+From the builder pane, under **Meausures**, 
+- Select **Add Measure** and this will reveal the "Create Calculation" option that we will select. 
 
 ![](.//media/createcalcbuilder.png)
 
@@ -60,7 +64,8 @@ In the editor dialogue select "Calculated Measure" and create a formula of Days 
 
 ![](.//media/image30.png)
 
-Change the chart to a Combination Column and Line chart. You will see you have 2 values under the Columns Axis. Drage the "Average Days Between" down under the "Line Axis" so that your chart matches the screenshot below.
+Change the chart to a Combination Column and Line chart. You will see you have 2 values under the Columns Axis. 
+Drage the "Average Days Between" down under the "Line Axis" so that your chart matches the screenshot below.
 
 ![](.//media/image31.png)
 
