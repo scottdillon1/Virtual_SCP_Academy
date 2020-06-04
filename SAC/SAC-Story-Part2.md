@@ -17,7 +17,7 @@ Files". This will be the model you will be created.**
 
 ![](.//media/image24.png)
 
-c)  Add dimensions to increase your search capability (do this by clicking the plus sign):
+:point_right:**Add dimensions to increase your search capability (do this by clicking the plus sign):**
 
 ![](.//media/image25a.png)
 
@@ -25,7 +25,7 @@ c)  Add dimensions to increase your search capability (do this by clicking the p
 
 ![](.//media/image98.png)
 
-d)  From here, under **Measures**, select *Number of Incidents* (measure value) and select the Category Code (header).
+:point_right:  Under **Measures**, select *Number of Incidents* (measure value) and select the Category Code (header).
     
    Once the measure and Category code is selected, you should see a chart appear that reflects this data.
    
@@ -70,15 +70,11 @@ Your chart now looks like this
 
 ![](.//media/image33.png)
 
-e)  Delete the second lane, located on the right-hand side of the
-    screen. Click on the header of the lane and an the selector appears
-    (circle with three dots).
+:point_right:  Delete the second lane, located on the right-hand side of the screen. Click on the header of the lane and an the selector appears (circle with three dots).
 
 ![](.//media/image34.png)
 
-f)  Insert a new chart. Change the chart to a numeric point. Insert
-    Average Number of Days. You will notice that once you select insert chart, SAC does this for you.  
-    You don't need to use your mouse.
+:point_right:  Insert a new chart. Change the chart to a numeric point. Insert Average Number of Days. You will notice that once you select insert chart, SAC does this for you. You don't need to use your mouse.
     
 ![](.//media/image35.png)
 
@@ -90,7 +86,7 @@ Your storyboard looks like this now:
 
 ![](.//media/image36.png)
 
-g)  i.  Step 1: Duplicate the numeric point chart showing "Average
+:point_right:  Step 1: Duplicate the numeric point chart showing "Average
         Number of Days". In the new numeric point chart, replace Average
         Number of Days and insert Total Incidents.
 
