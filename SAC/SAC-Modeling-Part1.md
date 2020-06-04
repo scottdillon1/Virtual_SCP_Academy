@@ -8,7 +8,7 @@ From the home icon (oddly shaped like a hamburger), Select **Create > Model**
 
 ![](.//media/image1.png)
 
-:point_right: **Select "Get data from a datasource" **
+:point_right: **Select "Get data from a datasource"**
 
 
 ![](.//media/image2.png)
@@ -21,7 +21,7 @@ From the home icon (oddly shaped like a hamburger), Select **Create > Model**
 
 ![](.//media/image4.png)
 
-:point_right: Select the copy a query option and then next
+:point_right: **Select the copy a query option and then next**
 
 ![](.//media/image99.png)
 
