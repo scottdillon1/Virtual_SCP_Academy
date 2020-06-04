@@ -13,11 +13,20 @@ applications development capabilities.
 
 You will find all the information about SAP Analytics Cloud on this page: https://www.sapanalytics.cloud/.
 
-Here are the prerequisites for this week:
+## Prerequisites for this week
 1.	Current Google Chrome or Microsoft Edge Browser. We recommend Google Chrome.
 2.	Your login will be your P user in email format. For example, ``P005001@sapexperienceacademy.com``
 3.	The password will be given by the instructors. 
 
-Let’s start with the exercise.
+
+SAP Analytics Cloud's business intelligence function has two main components:
+- Models
+- Stories
+
+**Models** are where you do all your data modeling in preparation for analysis. Data modeling entails data wrangling, or cleaning, your dataset, defining your measures and dimensions, and enhancing your data by establishing hierarchies, setting units and currencies, and adding formulas.
+
+**Stories**, on the other hand, are where your data comes to life. In Story mode, you can visualize your data with charts and graphs, giving you an entirely new way to look at your data and gain valuable insight about your business.
+
+In the first section, you will be creating the model for our data and in the second section you will be building a story to visualize the data.
 
 [Next](scp_sac.md)
