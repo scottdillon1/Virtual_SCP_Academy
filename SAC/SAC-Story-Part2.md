@@ -4,8 +4,9 @@ From the home menu (hamburger icon), select Create > Story.
 
 ![](.//media/image21.png)
 
-a)  Select Access and Explore
-    Data![](.//media/image22.png)
+:point_right:**Select Access and Explore Data
+
+![](.//media/image22.png)
 
 b)  Select Data Acquired from an Existing Model
 
