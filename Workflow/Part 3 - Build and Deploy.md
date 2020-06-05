@@ -31,6 +31,7 @@ Start by deploying the IncidentFlows mtar file to SAP Cloud Platform. Right clic
 ![SCPWebIDEBuild](Part3Images/deployincident.png)
 
 You will be prompted to select the subaccount and space. This is associated with your account. There should only be one.
+![deploycf](Part3Images/deploycf.png)
 
 Let the build go - it may take a few minutes. The deployment descriptors we modified previously are being used by cloud foundry to configure and deploy the required services. When the package is deployed, you will get a success message.
 
