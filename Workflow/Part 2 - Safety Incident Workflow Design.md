@@ -306,7 +306,7 @@ When you click on the "Retrieve Incident Details" Service Task, you will see the
 
 ![MTADownload](Part3Images/retrieveincidentdetails.png)
 
-Note: The current destinations in the workflow are set to **Incidents_CF** which is pointing to a test service created by SAP for this course. In a future step you will change this destination to the service that you created in the first week of this course.
+Note: The current destinations in the workflow are set to **Incidents_CF** which is pointing to a test service created by SAP for this course.
 
 ```
 The destination incidentservice has already been created by the SAP team for you. 
