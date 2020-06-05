@@ -42,6 +42,13 @@ Congratulations, you have completed the steps to build and deploy the Safety Inc
 
 The Fiori Launchpad which contains the access to your Inbox and Workflow Definitions can be found here:
 
+
+*LATAM*
+| Subaccount | User Range |  Fiori Launchpad | 
+| ------------- | ------------- |------------- |
+| A | P005557 - P005587 | https://se-technical-academy-xaea0554-cf-eu10-dev-master-va-wf-flp-main.cfapps.eu10.hana.ondemand.com |
+| B | P005588 - P005618 | https://se-technical-academy-xaea0556-cf-eu10-dev-master-va-wf-flp-main.cfapps.eu10.hana.ondemand.com      |
+| C | P005650 - P005680 | https://se-technical-academy-xaea0558-cf-eu10-dev-master-va-wf-flp-main.cfapps.eu10.hana.ondemand.com    |
 Group A
 
 https://se-technical-academy-xaea0554-cf-eu10-dev-master-va-wf-flp-main.cfapps.eu10.hana.ondemand.com
