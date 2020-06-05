@@ -44,22 +44,11 @@ The Fiori Launchpad which contains the access to your Inbox and Workflow Definit
 
 
 *LATAM*
-| Subaccount | User Range |  Fiori Launchpad | 
+| Group | User Range |  Fiori Launchpad | 
 | ------------- | ------------- |------------- |
 | A | P005557 - P005587 | https://se-technical-academy-xaea0554-cf-eu10-dev-master-va-wf-flp-main.cfapps.eu10.hana.ondemand.com |
-| B | P005588 - P005618 | https://se-technical-academy-xaea0556-cf-eu10-dev-master-va-wf-flp-main.cfapps.eu10.hana.ondemand.com      |
-| C | P005650 - P005680 | https://se-technical-academy-xaea0558-cf-eu10-dev-master-va-wf-flp-main.cfapps.eu10.hana.ondemand.com    |
-Group A
-
-https://se-technical-academy-xaea0554-cf-eu10-dev-master-va-wf-flp-main.cfapps.eu10.hana.ondemand.com
-
-Group B
-
-https://se-technical-academy-xaea0556-cf-eu10-dev-master-va-wf-flp-main.cfapps.eu10.hana.ondemand.com
-
-Group C
-
-https://se-technical-academy-xaea0558-cf-eu10-dev-master-va-wf-flp-main.cfapps.eu10.hana.ondemand.com
+| B | P005588 - P005618 | https://se-technical-academy-xaea0556-cf-eu10-dev-master-va-wf-flp-main.cfapps.eu10.hana.ondemand.com |
+| C | P005650 - P005680 | https://se-technical-academy-xaea0558-cf-eu10-dev-master-va-wf-flp-main.cfapps.eu10.hana.ondemand.com |
 
 Once you open the Launchpad, you should be able to click on the Monitor Workflows tile and see your workflow definition if it was successfully deployed above.
 
