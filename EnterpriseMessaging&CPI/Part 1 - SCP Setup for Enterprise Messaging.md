@@ -68,10 +68,9 @@ This method is not used by the Safety Incident application
 In queue subscriptions, the service enables a sending application to publish messages to a topic that directly sends the message to the queue to which it is bound. 
 * A queue subscription ensures that the message is retained until it is consumed by the receiving application.
 
-```
-For the Safety Incident scenario, we have preconfigured two queues that have been registered to a topic.
-As Incidents are created, they will be pushed to the topic and then to both of the queues will be populated with the Incident
-```
+For the Safety Incident scenario, we will use 2 queues. 1 of the queues has been preconfigured to for our Function As A Service and the other queue will be created as part of the exercise. Each of these queues will subscribe to a topic. 
+
+As Incidents are created via the mobile application or the UI5 application, the CAP application will emit/publish events via AMQP with a certain topic. Once published, they will be deposited into the relevant queues depending on the subscription.
 
 ![queue](Part1Images/queuesubscriptions.png)
 
