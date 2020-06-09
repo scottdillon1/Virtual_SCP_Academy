@@ -38,13 +38,13 @@ A sending application sends a message to a specific named queue. There's a one o
 
 The message queue retains the messages until the receiving application consumes it. 
 
-```
-For the Safety Incident scenario, you will be configuring two "receiving applications";
-1. A serverless function which will be used to create a workflow 
+For the Safety Incident scenario, there are 2 loosely coupled consumers "receiving applications";
+1. A serverless function which will be used to create an instance of the user workflow 
 2. An SCP Integration Flow which will store the incidents as files on an SFTP server
 
+**You will be implementing the 2nd scenario as part of this exercise**
+
 Each of these receiving applications will be listening on a specific queue
-```
 
 ![queue](Part1Images/queue.png)
 
