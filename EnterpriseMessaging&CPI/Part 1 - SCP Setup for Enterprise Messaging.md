@@ -222,7 +222,7 @@ Now, we will add the second queue that you will need for the exercise. This queu
 
 ![Queuecreate](Part1Images/queuecreate.png)
 
-Press the *Create* button and you should see the newly created Queue with your userid embedded in the name. Please take note of the name.
+Press the *Create* button and you should see the newly created Queue with your userid embedded in the name. Please take note of the name
 
 ![Queuecreate](Part1Images/queuecreated.png)
 
