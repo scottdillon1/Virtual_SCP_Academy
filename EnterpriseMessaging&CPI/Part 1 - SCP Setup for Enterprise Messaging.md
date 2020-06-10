@@ -242,29 +242,6 @@ If your topic was specified creately, it should look like this. If everything lo
 You can also see the number of messages in the queue and the number of unacknowledged messages. 
 As you create incidents, you will see these numbers change as messages are entering and leaving the queue.
 
-## How to find topics
-
-You have seen the Enterprise Message Queues. 
-
-Now lets look at the topic which both of the queues are subscribed. 
-
-On the far right-hand side, click "Action" and then "Queue Subscriptions"
-
-![EMMAINPAGE](Part1Images/emqueuesubscription.png)
-
-We notice the following
-* The topic name: sap/vr/A/*
-* The name of the queue: sap/vr/A/P005001cpi
-
- ```
- Try to find your cpi queue and make sure the topic the same as the one listed above
- Check the Workforce queue and look for the subscribed topic - it should also be the same as the one listed above
- ```
- 
-The topic will be used by the CAP service to publish messages to the Enterprise Message Service. 
-* The messages will be published to a topic and not to a specific queue. This way it is easy to add new consumers. 
-  *The safety incident application will continue to publish to the topic - All we have to do is create a new queue and subscribe to the topic.
-  
 ## How to test in the Enterprise Messaging User Interface 
 
 When you are designing decoupled event driven architectures like this one, it helps to have a built-in testing tool.
