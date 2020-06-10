@@ -230,9 +230,14 @@ Now lets check the subscription for the queue to ensure everything is setup corr
 
 ![Queuecreate](Part1Images/queuesubscription.png)
 
-You should see that the creation of the queue also included a default subscription which essentially pulls every message into the queue that has the matching namespace.
+Now we will add a subscription, type in the name of the namespace with the wildcard * at the end **sap/vrA/**, once you have typed in the topic name for the subscription, press the **Add** button.
 
-![Queuecreate](Part1Images/defaultqueuesub.png)
+![Queuecreate](Part1Images/createsub.png)
+
+If your topic was specified creately, it should look like this. If everything looks okay, hit the *Close* button.
+
+![Queuecreate](Part1Images/subcreated.png) 
+
 
 
 
