@@ -282,7 +282,21 @@ You see that you can:
 You have seen the queue **sap/vr/A/WorkflowQueue**. This is the queue that contains the messages to trigger workflows.
 A serverless function has been deployed and is subscribed on this queue. Lets take a look at the Extension Center.
 
-Go back to the following link https://virtual-scp-roadshow.cfapps.eu10.hana.ondemand.com
+Head back to the landing page:
+
+For NA, Go back to the following link https://virtual-scp-roadshow.cfapps.eu10.hana.ondemand.com
+
+*LATAM Virtual Academy*
+
+If Your userid is between P005557 - P005587
+https://xa-EA0554.cfapps.eu10.hana.ondemand.com
+
+If your userid is between P005588 - P005618
+https://xa-EA0556.cfapps.eu10.hana.ondemand.com
+
+If your userid is between P005650 - P005680
+https://xa-EA0558.cfapps.eu10.hana.ondemand.com
+
 Click on the "Let's Go" in the Extension Center tile.
 
 ![EMMAINPAGE](Part1Images/eclandingpage.png)
