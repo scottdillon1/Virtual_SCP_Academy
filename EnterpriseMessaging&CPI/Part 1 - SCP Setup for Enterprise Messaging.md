@@ -239,20 +239,8 @@ If your topic was specified creately, it should look like this. If everything lo
 ![Queuecreate](Part1Images/subcreated.png) 
 
 
-
-
-Notice the queue names **sap/vr/A/P005001cpi**, they follow the format **namespace + UserID+cpi**
- * These will be used when you develop the IFlow to create Safety Incident Files.
- 
 You can also see the number of messages in the queue and the number of unacknowledged messages. 
 As you create incidents, you will see these numbers change as messages are entering and leaving the queue.
-
-Remember there is a second queue, that will be used to trigger your workflow. 
-
-To find the second queue, search for "Workflow". You will now see the **sap/vr/A/WorkflowQueue** queue. 
-This queue will contain all incidents from all users and will be used to create the workflows.
-
-![EMMAINPAGE](Part1Images/emqueuewf.png)
 
 ## How to find topics
 
