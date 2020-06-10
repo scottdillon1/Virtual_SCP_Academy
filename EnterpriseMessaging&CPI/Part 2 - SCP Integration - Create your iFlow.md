@@ -11,8 +11,22 @@ For further information about this service, refer to the following documentation
 https://help.sap.com/viewer/product/CLOUD_INTEGRATION/Cloud/en-US?task=discover_task.
 
 Logon to the SAP Cloud Platform Roadshow Landing Page
-(<https://virtual-scp-roadshow.cfapps.eu10.hana.ondemand.com/>) with the
-P-user and the password provide by your instructor. It's the same as for
+For North America:
+(<https://virtual-scp-roadshow.cfapps.eu10.hana.ondemand.com/>)
+
+*LATAM Virtual Academy*
+
+If Your userid is between P005557 - P005587
+https://xa-EA0554.cfapps.eu10.hana.ondemand.com
+
+If your userid is between P005588 - P005618
+https://xa-EA0556.cfapps.eu10.hana.ondemand.com
+
+If your userid is between P005650 - P005680
+https://xa-EA0558.cfapps.eu10.hana.ondemand.com
+
+
+Remember to use your username and password provided by your instructor. It's the same as for
 the 2 previous sessions.
 
 <img src=".//Part2Images/image1.png" width="50%" height="50%">
