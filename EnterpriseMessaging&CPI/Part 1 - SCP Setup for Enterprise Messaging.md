@@ -218,7 +218,22 @@ Click on "Queues" to view the queues that we have defined.
 You will now see the **sap/vr/A/WorkflowQueue** queue. 
 This queue will contain all incidents from all users and will be used to create the workflow instances that will populate your Fiori Inbox.
 
-Now, we will add the second queue that you will need for the exercise. This queue will be called **sap/vr/A/P00XXXXcpi** and you will replace XXXX with your 4 digit userID.
+Now, we will add the second queue that you will need for the exercise. This queue will be called **sap/vr/A/P00XXXXcpi** and you will replace XXXX with your 4 digit userID. Press the **Create Queue** button. Take note that as you type the Queue name, it gets appended to the namespace automatically and this is shown towards the bottom.
+
+![Queuecreate](Part1Images/queuecreate.png)
+
+Press the *Create* button and you should see the newly created Queue with your userid embedded in the name. Please take note of the name.
+
+![Queuecreate](Part1Images/queuecreated.png)
+
+Now lets check the subscription for the queue to ensure everything is setup correctly. Under the actions menu item on the right side, click the down arrow and select  "Queue Subscriptions".
+
+![Queuecreate](Part1Images/queuesubscription.png)
+
+You should see that the creation of the queue also included a default subscription which essentially pulls every message into the queue that has the matching namespace.
+
+![Queuecreate](Part1Images/defaultqueuesub.png)
+
 
 
 Notice the queue names **sap/vr/A/P005001cpi**, they follow the format **namespace + UserID+cpi**
