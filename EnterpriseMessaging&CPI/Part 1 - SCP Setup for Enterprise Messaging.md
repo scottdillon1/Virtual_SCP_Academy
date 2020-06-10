@@ -126,19 +126,20 @@ For more information see, [SAP Cloud Platform, Extension Factory Serverless Runt
 
 The goal of this exercise is to trigger a workflow and save the incident to a file when the incident is created.
 
-Lets look at the landscape for user P004042 to understand how it is setup.
+Lets look at the landscape for user P004842 to understand how it is setup.
 
 ![Landscape](Part1Images/landscape.png)
 
 You will notice that:
 
-* The CAP service has been modified to publish an event ot the enterprise message service. 
- * It will publish to a topic containing the user ID (i.e. for user sap/vr/A/P004842P004842)
+* The CAP service has been modified to publish an event to the enterprise message service. 
+ * It will publish to the following topic **sap/vr/A/SAFETYINCIDENTCREATED**
+ The first portion **sap/vr/A** is the namespace and what follows is the topic
  
-* The Service will publish to the following topic **sap/vr/A/***
-  * This topic has been configured to accept all messages, as long as it follows the namespace prefix **sap/vr/A/**
+So, as part of the exercise you will be creating a queue and you will create the subscription that accepts all messages from all users.
+The subscription you will specify will have the following format, **sap/vr/A/**...stay tuned you will see this shortly.
 
-* There are two queues 
+* There are two queues, the first one is the one you will create in the next exercise. You will be specifying a topic that uses your username. 
   * **sap/vr/A/P004842cpi**
     * This queue will be used by the SCP Integration Service exercise
     * As messages are published to the topic, this queue will be populated. 
