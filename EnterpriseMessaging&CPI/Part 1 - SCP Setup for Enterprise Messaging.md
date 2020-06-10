@@ -215,6 +215,12 @@ Click on "Queues" to view the queues that we have defined.
 
 ![EMMAINPAGE](Part1Images/emqueue.png)
 
+You will now see the **sap/vr/A/WorkflowQueue** queue. 
+This queue will contain all incidents from all users and will be used to create the workflow instances that will populate your Fiori Inbox.
+
+Now, we will add the second queue that you will need for the exercise. This queue will be called **sap/vr/A/P00XXXXcpi** and you will replace XXXX with your 4 digit userID.
+
+
 Notice the queue names **sap/vr/A/P005001cpi**, they follow the format **namespace + UserID+cpi**
  * These will be used when you develop the IFlow to create Safety Incident Files.
  
