@@ -230,7 +230,7 @@ Now lets check the subscription for the queue to ensure everything is setup corr
 
 ![Queuecreate](Part1Images/queuesubscription.png)
 
-Now we will add a subscription, type in the name of the namespace with the wildcard * at the end **sap/vrA/**, once you have typed in the topic name for the subscription, press the **Add** button.
+Now we will add a subscription, type in the name of the namespace with the wildcard * at the end **sap/vr/A/**, once you have typed in the topic name for the subscription, press the **Add** button.
 
 ![Queuecreate](Part1Images/createsub.png)
 
