@@ -101,13 +101,21 @@ Choose HTTP as Adapter Type.
 
 Open the Connection tab and fill in the following information:
 
+*LATAM*
+| Subaccount | User Range |  Service | 
+| ------------- | ------------- |------------- |
+| A | P005557 - P005587 | **ht<span>tps://</span>incidentsmaster-srv-optimistic-leopard.cfapps.eu10.hana.ondemand.com/incident/SafetyIncidents(\${header.IncidentID})** |
+| B | P005588 - P005618 | **ht<span>tps://</span>incidentsmaster-srv-generous-swan.cfapps.eu10.hana.ondemand.com/incident/SafetyIncidents(\${header.IncidentID})**      |
+| C | P005650 - P005680 | **ht<span>tps://</span>incidentsmaster-srv-turbulent-otter.cfapps.eu10.hana.ondemand.com/incident/SafetyIncidents(\${header.IncidentID})**    |
+
+
 Address:
 | Tenant | Address | 
 | ------------- | ------------- |
-| A | **ht<span>tps://</span>incidentsmaster-srv-noisy-bongo.cfapps.eu10.hana.ondemand.com/incident/SafetyIncidents(\${header.IncidentID})** | 
-| B | **ht<span>tps://</span>incidentsmaster-srv-anxious-quokka.cfapps.eu10.hana.ondemand.com/incident/SafetyIncidents(\${header.IncidentID})** | 
-| C | **ht<span>tps://</span>incidentsmaster-srv-patient-lynx.cfapps.eu10.hana.ondemand.com/incident/SafetyIncidents(\${header.IncidentID})** | 
-| D | **ht<span>tps://</span>incidentsmaster-srv-sleepy-camel.cfapps.eu10.hana.ondemand.com/incident/SafetyIncidents(\${header.IncidentID})** |
+| A | **ht<span>tps://</span>incidentsmaster-srv-optimistic-leopard.cfapps.eu10.hana.ondemand.com/incident/SafetyIncidents(\${header.IncidentID})** | 
+| B | **ht<span>tps://</span>incidentsmaster-srv-generous-swan.cfapps.eu10.hana.ondemand.com/incident/SafetyIncidents(\${header.IncidentID})** | 
+| C | **ht<span>tps://</span>incidentsmaster-srv-turbulent-otter.cfapps.eu10.hana.ondemand.com/incident/SafetyIncidents(\${header.IncidentID})** | 
+
 
 Method: **GET**<br/>
 Authentication: **Client Certificate**<br/>
