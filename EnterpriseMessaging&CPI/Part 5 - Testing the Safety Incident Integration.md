@@ -159,3 +159,5 @@ incident.
 ![](.//Part5Images/image4.png)
 
 Congratulations, you have automated the creation of workflows and Integration flows using Enterprise Messaging and the Safety Incident Application. All of this was done leveraging a publish, subscribe integration based architecture with very little coding and configuration.
+
+# In our last session, we discovered a connection limit in our accounts....10 to be precise....once you confirm your scenario is working...please select the option to "UNDEPLOY" your iFlow so that other ones will be run successfully 
