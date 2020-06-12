@@ -109,13 +109,7 @@ Open the Connection tab and fill in the following information:
 | C | P005650 - P005680 | **ht<span>tps://</span>incidentsmaster-srv-turbulent-otter.cfapps.eu10.hana.ondemand.com/incident/SafetyIncidents(\${header.IncidentID})**    |
 
 
-Address:
-| Tenant | Address | 
-| ------------- | ------------- |
-| A | **ht<span>tps://</span>incidentsmaster-srv-optimistic-leopard.cfapps.eu10.hana.ondemand.com/incident/SafetyIncidents(\${header.IncidentID})** | 
-| B | **ht<span>tps://</span>incidentsmaster-srv-generous-swan.cfapps.eu10.hana.ondemand.com/incident/SafetyIncidents(\${header.IncidentID})** | 
-| C | **ht<span>tps://</span>incidentsmaster-srv-turbulent-otter.cfapps.eu10.hana.ondemand.com/incident/SafetyIncidents(\${header.IncidentID})** | 
-
+**For anyone completing the exercise in NA, refer back to the CAP exercise for a list of the services that have been deployed in the NA environment***
 
 Method: **GET**<br/>
 Authentication: **Client Certificate**<br/>
