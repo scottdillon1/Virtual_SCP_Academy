@@ -6,6 +6,17 @@ From the Launchpad, you will be using 2 icons, the "Mobile Services" and the "We
 
 https://virtual-scp-roadshow.cfapps.eu10.hana.ondemand.com
 
+*LATAM*
+
+If Your userid is between P005557 - P005587
+https://xa-EA0554.cfapps.eu10.hana.ondemand.com
+
+If your userid is between P005588 - P005618
+https://xa-EA0556.cfapps.eu10.hana.ondemand.com
+
+If your userid is between P005650 - P005680
+https://xa-EA0558.cfapps.eu10.hana.ondemand.com
+
 ![VA Launchpad](images/landingpage.png)
 
 Mobile Services will be used to configure your application and establish connectivity to the data sources that you want to use in your mobile application.
