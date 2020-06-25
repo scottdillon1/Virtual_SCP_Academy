@@ -1,4 +1,5 @@
 # SAP Cloud Platform Mobile Services
+**There is nothing to do on this first page, just information to read on our mobile strategy**
 As part of SAP's mobile strategy, we have 3 distinct mobile offerings that are contained within mobile Services:
 - Mobile Cards
 - Mobile Development Kit
