@@ -13,6 +13,17 @@ Open a New Browser Window and use the following Link:
 
 https://virtual-scp-roadshow.cfapps.eu10.hana.ondemand.com
 
+*LATAM*
+
+If Your userid is between P005557 - P005587
+https://xa-EA0554.cfapps.eu10.hana.ondemand.com
+
+If your userid is between P005588 - P005618
+https://xa-EA0556.cfapps.eu10.hana.ondemand.com
+
+If your userid is between P005650 - P005680
+https://xa-EA0558.cfapps.eu10.hana.ondemand.com
+
 For this scenario, we will be using the new Business Application Studio so click on the "Let's Go" within the BAS Tile
 
 ![BASONLANDINGPAGE](../Images/TALandingBAS.jpg)
