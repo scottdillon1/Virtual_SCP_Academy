@@ -63,7 +63,11 @@ B | Select the template you want to use | **SAP Fiori Worklist Application OData
 
 ![Project Name](Part1Images/ProjectName.png)
 
-5. For Basic Attributes select the following, and click **Next**.
+5. For HTML 5 Application Runtime select **Standalone Approuter**, and click **Next**.
+
+![Application Runtime](Part1Images/AppRuntime.png)
+
+6. For Basic Attributes select the following, and click **Next**.
 
 > Note: Don't forget to replace *P00XXXX* with you P number.
 
@@ -74,10 +78,6 @@ B | Do you want to add authentication | **No**
 C | Enter a namespace| **ns**
 
 ![Basic Attributes](Part1Images/BasicAttributes.png)
-
-6. If prompted for Module Namespace, leave the default value (**ns**), and click **Next**.
-
-![Module Namespace](Part1Images/ModuleNameSpace.png)
 
 7. For Application Title select the following, and click **Next**.
 
@@ -91,10 +91,9 @@ E | Select batch mode corresponding  to selected oData Service | **Auto: Request
   
 ![Application Title](Part1Images/ApplicationTitle.png)
 
+8. For Consume Services select the following, and click **Next**.
 
-8. For Providers select the following, and click **Next**.
-
-> Note: When selecting a source, type *master* and replace the x with the your platform user group (a, b, c or d).
+> Note: When selecting a source, type *master* and replace the x with the your platform user group (a, b or c).
 
 Step | Parameter | Value
 ------------ | ------------- | -------------
