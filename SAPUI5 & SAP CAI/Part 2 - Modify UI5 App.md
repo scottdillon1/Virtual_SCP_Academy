@@ -28,7 +28,7 @@ We just copied a few teamplates which have generic user, we will now change to r
 
 ![Open Worklist](Part2ImagesShort/4.OpenWorklist.png)
 
-2. *On line 2* replace P00XXXX with your P number.
+2. *On line 2* replace **P00XXXX** with your P number.
 
 ![Change User](Part2ImagesShort/5.ChangeUser.png)
 
@@ -48,7 +48,7 @@ We just copied a few teamplates which have generic user, we will now change to r
 
 ![Open Controller](Part2ImagesShort/9.ChangeUser.png)
 
-3. Scroll down and do the same *on lines 115, 164 and 199*. In addition, replace the *x* in **master_x_incidentservice** with your tenant ID (a, b, c or d).
+3. Scroll down and do the same *on lines 115, 164 and 199*. In addition, replace **P00XXXX** with your P number and the *x* in **master_x_incidentservice** with your tenant ID (a, b, c or d).
 
 ![Change User 2](Part2ImagesShort/10.ChangeUserCreate2.png)
 
