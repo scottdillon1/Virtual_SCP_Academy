@@ -41,13 +41,7 @@ We will first create a SAP Conversational AI account. If you already have one, p
 
 ![Sign up Form](Part3Images/0.4.ConfirmEmail.png)
 
-4. Access the TA Landing Page https://virtual-scp-roadshow.cfapps.eu10.hana.ondemand.com/ (open it in a different tab).
-
-For this scenario, we will be using an independent SAP Conversational AI tenant. Click on **Let's Go** in the Conversational AI Title. 
-
-![Open Conversational AI](Part3Images/1.OpenConversaionalAI.png)
-
-5. Log in to SAP Conversational AI by clicking **Log in** at the upper right-hand corder of your screen.
+4. Go back to https://cai.tools.sap/  and log in to SAP Conversational AI by clicking **Log in** at the upper right-hand corder of your screen.
 
 ![Log in SAP CAI](Part3Images/5.LoginSAPCAI.png)
 
