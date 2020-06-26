@@ -85,7 +85,7 @@ Here we only need to specify the name of the destination and the URL of the serv
 | ------------- | ------------- |------------- |
 | A | P005557 - P005587 | https://incidentsmaster-srv-optimistic-leopard.cfapps.eu10.hana.ondemand.com/incident |
 | B | P005588 - P005618 | https://incidentsmaster-srv-generous-swan.cfapps.eu10.hana.ondemand.com/incident      |
-| C | P005650 - P005680 | https://incidentsmaster-srv-turbulent-otter.cfapps.eu10.hana.ondemand.com/incident    |
+| C | P005650 - P005680 | https://incidenciacb-srv-bright-bushbuck.cfapps.eu10.hana.ondemand.com/incident    |
 
 
 ![NewMobileCreated](images/mobiledest.png)
