@@ -184,10 +184,12 @@ Run your new application to test it.
 
 6. Hover over the run configuration and click the Run Module icon.
 
-> **IMPORTNAT NOTE: If when you run the app you get an error meesage _Attribute 'program' does not exist ('{path}')_, please open a new Terminal on Terminal > New Terminal and enter the two following commands: 
+**IMPORTNAT NOTE: If when you run the app you get an error meesage _Attribute 'program' does not exist ('{path}')_, please open a new Terminal on Terminal > New Terminal and enter the two following commands: **
 
 - **_cd incidentreport-p00XXXX-approuter_ (Replace XXXX with your P number**
 - **_npm install_**
+
+**Then press Run Module icon again**
 
 ![Run Test](Part1Images/RunTest.png)
 
