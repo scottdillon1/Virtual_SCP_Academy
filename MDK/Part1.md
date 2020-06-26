@@ -80,8 +80,8 @@ Here we only need to specify the name of the destination and the URL of the serv
     Group C: https://incidentsmaster-srv-patient-lynx.cfapps.eu10.hana.ondemand.com/incident
     Group D: https://incidentsmaster-srv-sleepy-camel.cfapps.eu10.hana.ondemand.com/incident
     
-    *LATAM*
-| Subaccount | User Range |  Service | 
+**LATAM**
+| Subaccount | User Range |  URL | 
 | ------------- | ------------- |------------- |
 | A | P005557 - P005587 | https://incidentsmaster-srv-optimistic-leopard.cfapps.eu10.hana.ondemand.com/incident |
 | B | P005588 - P005618 | https://incidentsmaster-srv-generous-swan.cfapps.eu10.hana.ondemand.com/incident      |
