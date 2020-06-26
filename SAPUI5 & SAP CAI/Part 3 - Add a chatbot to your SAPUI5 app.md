@@ -583,7 +583,7 @@ Response | photostatus
 
 ![Copy xs-app.json](Part2Images/CreateView/26.1.Copy_xs-json.png)
 
-2. Go to **IncidentReportP00XXXX > webapp** and paste the *xs-app.json* by using *Ctrl + v*
+2. Go to **IncidentReportP00XXXX > webapp** and paste the *xs-app.json*. **You have to use key combination _Ctrl + v_ **
 
 ![Paste xs-app.json](Part2Images/CreateView/26.2.Paste_xs-json.png)
 
