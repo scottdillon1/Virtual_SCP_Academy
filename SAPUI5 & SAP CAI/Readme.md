@@ -33,7 +33,7 @@ You should be prompted with a screen like this one where you will now create a D
 
 From here, you will select the SAP Fiori Template and provide a name for your Dev Space. We would suggest you make this name unique by including your UserName in the name and append UI5App. After you specify the name, click the button "Create Dev Space"
 
-![Dev Sapce](../Images/CreatingSAPFioriSpace.png)
+![Dev Sapce](../Images/CreatingSAPFioriSpace_1.png)
 
 After 1-2 minutes, you should see the status of your creation change from started to running which means your Dev Space is now ready.
 ![Dev Space Created](../Images/FioriSpaceRunning.png)
