@@ -6,6 +6,16 @@ In this part, we will create a chatbot by leveraging SAP Conversational AI and e
 
 > Note: For this execise you will require a service URL. Please write down the *(YOUR SERVICE BASE URL)* that corresponds to your platform user
 
+**Latin America**
+
+Tenant | (YOUR SERVICE BASE URL)
+------------ | ------------- 
+ xaEA0554 | **incidentsmaster-srv-optimistic-leopard.cfapps.eu10.hana.ondemand.com**
+ xaEA0556 | **incidentsmaster-srv-generous-swan.cfapps.eu10.hana.ondemand.com**
+ xaEA0558 | **incidenciacb-srv-bright-bushbuck.cfapps.eu10.hana.ondemand.com**
+
+**North America**
+
 Platform User | (YOUR SERVICE BASE URL)
 ------------ | ------------- 
  platformA | **incidentsmaster-srv-noisy-bongo.cfapps.eu10.hana.ondemand.com**
@@ -198,6 +208,16 @@ A **skill** is a block of conversation that has a clear purpose and that your bo
   
  6. We will make a *GET* call to our incident service. Select *GET* and specify the following URL. 
  
+ **Latin America**
+
+Tenant | (YOUR SERVICE BASE URL)
+------------ | ------------- 
+ xaEA0554 | **incidentsmaster-srv-optimistic-leopard.cfapps.eu10.hana.ondemand.com**
+ xaEA0556 | **incidentsmaster-srv-generous-swan.cfapps.eu10.hana.ondemand.com**
+ xaEA0558 | **incidenciacb-srv-bright-bushbuck.cfapps.eu10.hana.ondemand.com**
+
+**North America**
+ 
  Platform User | (YOUR SERVICE BASE URL)
 ------------ | ------------- 
  platformA | **incidentsmaster-srv-noisy-bongo.cfapps.eu10.hana.ondemand.com**
@@ -290,6 +310,15 @@ A **skill** is a block of conversation that has a clear purpose and that your bo
   
  15. Right below the recently created condition click on **ADD NEW MESSAGE GROUP > CONNECT EXTERNAL SERVICE > CONSUME API SERVICE** and add the following URL. **DO NOT CLICK ON SAVE YET**:
  
+ **Latin America**
+
+Tenant | (YOUR SERVICE BASE URL)
+------------ | ------------- 
+ xaEA0554 | **incidentsmaster-srv-optimistic-leopard.cfapps.eu10.hana.ondemand.com**
+ xaEA0556 | **incidentsmaster-srv-generous-swan.cfapps.eu10.hana.ondemand.com**
+ xaEA0558 | **incidenciacb-srv-bright-bushbuck.cfapps.eu10.hana.ondemand.com**
+
+**North America**
  
  Platform User | (YOUR SERVICE BASE URL)
 ------------ | ------------- 
@@ -336,7 +365,16 @@ A **skill** is a block of conversation that has a clear purpose and that your bo
   
   19. Within the same action click **CONNECT EXTERNAL SERVICE > CONSUME API SERVICE**, leave authentication as **No authentication**  and use the information below for **Headers**, **YOUR SERVICE BASE URL**, **Body** and **Response** tabs and then click **SAVE**.
   
-    
+ **Latin America**
+
+Tenant | (YOUR SERVICE BASE URL)
+------------ | ------------- 
+ xaEA0554 | **incidentsmaster-srv-optimistic-leopard.cfapps.eu10.hana.ondemand.com**
+ xaEA0556 | **incidentsmaster-srv-generous-swan.cfapps.eu10.hana.ondemand.com**
+ xaEA0558 | **incidenciacb-srv-bright-bushbuck.cfapps.eu10.hana.ondemand.com**
+
+**North America**
+
  Platform User | (YOUR SERVICE BASE URL)
 ------------ | ------------- 
  platformA | **incidentsmaster-srv-noisy-bongo.cfapps.eu10.hana.ondemand.com**
