@@ -3,7 +3,7 @@
 ## Login into the SAC environment
 Direct your Chrome browser to the following URL:
         <https://experienceacademy.us10.hanacloudservices.cloud.sap/sap/fpa/ui/app.html#;view_id=home>        
-
+       
 From the home icon (oddly shaped like a hamburger), Select **Create > Model**
 
 ![](.//media/image1.png)
