@@ -16,7 +16,6 @@ You will find all the information about SAP Analytics Cloud on this page: https:
 ## Prerequisites for this week
 1.	Current Google Chrome or Microsoft Edge Browser. We recommend Google Chrome.
 2.	Your login will be your P user and password.
-3.	The password will be given by the instructors. 
 
 
 SAP Analytics Cloud's business intelligence function has two main components:
